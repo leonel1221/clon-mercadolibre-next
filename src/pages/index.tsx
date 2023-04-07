@@ -43,7 +43,16 @@ const indexPage = ()=>{
         </div>
       </header>
       <main className="contenedor-main">
-
+        <div>
+          <div>
+            <div className="novedades-principales">
+              <a className="aimagennovedades">
+                <img src="media\image\imgnovedades.png" />
+              </a>
+              <ul className="conte-ulnovedades-principales"><img src="media\ulnovedadesprincipales.svg"/></ul>
+            </div>
+          </div>
+        </div>
       </main>
       <footer className="footer-pp">
         <div className="footer1">
@@ -66,6 +75,8 @@ const indexPage = ()=>{
           <img src="media\image\pum.png" />
         </div>
       </footer>
+
+      
 
     </div>
   );
