@@ -11,7 +11,7 @@ const indexPage = () => {
                     </div>
 
                     <div className="nav-area nav-top-area nav-center-area">
-                        <form className="nav-search" role="search" style="display: inherit;">
+                        <form className="nav-search" role="search" >
                             <label className="nav-header-visually-hidden" for="nav-search-input">Ingresa lo que quieras encontrar</label>
                             <input type="text" className="nav-search-input" id="cb1-edit" aria-label="Ingresa lo que quieras encontrar" name="as_word" placeholder="Buscar productos, marcas y más…" maxlength="120" autocapitalize="off" autocorrect="off" spellcheck="false" autocomplete="off" value="" aria-activedescendant="" aria-controls="cb1-list" aria-autocomplete="list" aria-expanded="false" role="combobox" />
                             <button type="submit" className="nav-search-btn">
@@ -319,17 +319,17 @@ const indexPage = () => {
                                         <span className="vertienda">Ver tienda</span>
                                     </div>
                                     <div className="contenedor-tiendaoster">
-                                        <div className="tamaño-home"><img src="media\image\osterhome.jpg.png" ></div>
+                                        <div className="tamaño-home"><img src="media\image\osterhome.jpg.png" /></div>
                                         <div className="text-tienda">
                                             <span className="style-text-tienda">Oster</span>
                                         </div>
                                         <div className="articulos-tienda">
-                                            <a className="articulo-izq"><img src="media\image\plato.png" ></a>
-                                            <a className="articulo-centro"><img src="media\image\vaso.png" ></a>
-                                            <a className="articulo-der"><img src="media\image\olla.png" ></a>
+                                            <a className="articulo-izq"><img src="media\image\plato.png" /></a>
+                                            <a className="articulo-centro"><img src="media\image\vaso.png" /></a>
+                                            <a className="articulo-der"><img src="media\image\olla.png" /></a>
                                         </div>
                                         <div className="logo-tienda">
-                                            <img src="media\image\oster.png">
+                                            <img src="media\image\oster.png"/>
                                         </div>
                                         <span className="vertienda">Ver tienda</span>
                                     </div>
@@ -501,7 +501,7 @@ const indexPage = () => {
                                         <svg width="66" height="46" viewBox="0 0 66 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g clip-path="url(#clip0_1_629)">
                                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M0.910339 4.06598C0.910339 2.40786 2.28769 1.06348 3.98457 1.06348H61.941C63.6388 1.06348 65.0152 2.40341 65.0152 4.06598V41.2467C65.0152 42.9049 63.6379 44.2493 61.941 44.2493H3.98457C2.28678 44.2493 0.910339 42.9093 0.910339 41.2467V4.06598Z" fill="white" />
-                                                <mask id="mask0_1_629" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="66" height="46">
+                                                <mask id="mask0_1_629"  maskUnits="userSpaceOnUse" x="0" y="0" width="66" height="46">
                                                     <path d="M65.9255 45.1387H0V0.174316H65.9255V45.1387Z" fill="#484848" />
                                                 </mask>
                                                 <g mask="url(#mask0_1_629)">
