@@ -5,6 +5,9 @@
  * @author MercadoLibre.com
  */
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 
 .margen1{
@@ -3143,235 +3146,68 @@ color: #999999;
 }
 
 .formas-de-pago{
-    position: absolute;
-    width: 1184px;
-    height: 90px;
-    left: calc(50% - 1184px/2);
-    top: 380px;
-
-    background: #FFFFFF;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
+    @apply absolute w-[1184px] h-[90px] left-1/2 transform -translate-x-1/2 top-[380px] bg-white shadow-sm rounded-md;
 }
 
-.mediospagos{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
 
-    position: absolute;
-    width: 913.97px;
-    height: 130px;
-    left: 0px;
-    top: 20px;
+.mediospagos{
+    @apply flex flex-row items-start p-0 absolute w-[913.97px] h-[130px] left-0 top-[20px];
 }
 
 .masmediospagos{
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 270.03px;
-    height: 130px;
-    left: 913.97px;
-    top: 20px;
-
-    border-left: 1px solid #EEEEEE;
+    @apply box-border absolute w-[270.03px] h-[130px] left-[913.97px] top-[20px] border-l border-gray-300;
 }
 
 .cuotas{
-    width: 304.66px;
-    height: 130px;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 1;
+    @apply w-[304.66px] h-[130px] flex-none flex-grow;
 }
 
 .transferencias{
-    width: 304.66px;
-    height: 130px;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 1;
+    @apply w-[304.66px] h-[130px] flex-none flex-grow;
 }
 
 .pagaefectivo{
-    width: 304.66px;
-    height: 130px;
-    
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 2;
-    flex-grow: 1;
+    @apply w-[304.66px] h-[130px] flex-none flex-grow;   
 }
 
 .text-num-cuotas{
-    position: absolute;
-    width: 125px;
-    height: 20px;
-    left: 84px;
-    top: 4px;
-
-    font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    /* identical to box height */
-
-    display: flex;
-    align-items: center;
-
-    color: #000000;
+    @apply absolute w-[125px] h-[20px] left-[84px] top-[4px] flex font-normal font-[400] text-lg leading-5 items-center text-black;
+    font-family: Roboto, sans-serif;  
 }
 
 .text-vermas-cuotas{
-    position: absolute;
-    width: 48px;
-    height: 15px;
-    left: 84px;
-    top: 27px;
-
+    @apply absolute w-[48px] h-[15px] left-[84px] top-[27px] font-normal font-[400] text-base flex items-center leading-3 text-blue-500;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 15px;
-    display: flex;
-    align-items: center;
-
-    color: #3483FA;
 }
 
 .text-transferencia{
-    position: absolute;
-    width: 224px;
-    height: 20px;
-    left: 380px;
-    top: 4px;
-
-    font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    /* identical to box height */
-
-    display: flex;
-    align-items: center;
-
-    color: #000000;
-
+    @apply absolute w-[224px] h-[20px] left-[380px] top-[4px] flex font-normal font-[400] text-lg leading-5 items-center text-black;
+    font-family: Roboto, sans-serif;
 }
 
 .text-vermas-transfer{
-    position: absolute;
-    width: 48px;
-    height: 15px;
-    left: 380px;
-    top: 27px;
-
+    @apply absolute w-[48px] h-[15px] left-[380px] top-[27px] font-normal font-[400] text-base flex items-center leading-3 text-blue-500;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 15px;
-    display: flex;
-    align-items: center;
-
-    color: #3483FA;
-
 }
 
 .text-pagaefectivo{
-    position: absolute;
-    width: 126px;
-    height: 20px;
-    left: 680px;
-    top: 4px;
-
-    font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    /* identical to box height */
-
-    display: flex;
-    align-items: center;
-
-    color: #000000;
-
+    @apply absolute w-[126px] h-[20px] left-[680px] top-[4px] flex font-normal font-[400] text-lg leading-5 items-center text-black;
+    font-family: Roboto, sans-serif;
 }
 
 .text-vermas-pagaefectivo{
-    position: absolute;
-    width: 48px;
-    height: 15px;
-    left: 680px;
-    top: 27px;
-
+    @apply absolute w-[48px] h-[15px] left-[680px] top-[27px] font-normal font-[400] text-base flex items-center leading-3 text-blue-500;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 15px;
-    display: flex;
-    align-items: center;
-
-    color: #3483FA;
-
 }
 
 .text-masmedios{
-    position: absolute;
-    width: 159px;
-    height: 20px;
-    left: 85px;
-    top: 4px;
-
-    font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    /* identical to box height */
-
-    display: flex;
-    align-items: center;
-
-    color: #000000;
-
+    @apply absolute w-[159px] h-[20px] left-[85px] top-[4px] flex font-normal font-[400] text-lg leading-5 items-center text-black;
+    font-family: Roboto, sans-serif;
 }
 
 .text-vertodos{
-    position: absolute;
-    width: 56px;
-    height: 15px;
-    left: 85px;
-    top: 27px;
-
+    @apply absolute w-[56px] h-[15px] left-[85px] top-[27px] font-normal font-[400] text-base flex items-center leading-3 text-blue-500;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 15px;
-    display: flex;
-    align-items: center;
-
-    color: #3483FA;
-
 }
 
 .contenedor-main{
@@ -3385,11 +3221,7 @@ color: #999999;
 }
 
 .novedades-principales{
-    position: absolute;
-    height: 340px;
-    left: 0px;
-    right: 0px;
-    top: -100px;
+    @apply absolute h-[340px] left-0 right-0 top-[-100px];
 }
 
 .aimagennovedades{
