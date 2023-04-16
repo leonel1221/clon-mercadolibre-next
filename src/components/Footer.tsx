@@ -17,7 +17,7 @@ const Footer = () => {
                     <span className="textfooter1">Carrera 17 Numero 93 - 09 Piso 3, Bogotá D.C., Colombia</span>
                 </div>
 
-                <div className="footer2">
+                <div className="footer2 flex p-6">
                     <img src="media\image\sic.png" />
                     <img src="media\image\pum.png" />
                 </div>

@@ -17,7 +17,7 @@ import { Section } from "../components/Section";
 
 const indexPage = () => {
     return (
-        <div>
+        <div className="contenedor-body">
             <Header />
             <main className="contenedor-main">
                 <div>

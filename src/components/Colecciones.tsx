@@ -22,11 +22,13 @@ const Colecciones = () => {
 
                         </div>
                     </a>
-                    <div className="colecciones-inter">
+                    <div className="colecciones-inter flex gap-4">
                         <a ><img src="media\image\1.png" /></a>
                         <a ><img src="media\image\2.png" /></a>
                         <a ><img src="media\image\3.png" /></a>
                         <a ><img src="media\image\4.png" /></a>
+                    </div>
+                    <div className="colecciones-inter2 flex gap-4">
                         <a ><img src="media\image\5.png" /></a>
                         <a ><img src="media\image\6.png" /></a>
                         <a ><img src="media\image\7.png" /></a>
