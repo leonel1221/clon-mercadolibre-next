@@ -10,7 +10,7 @@
 @tailwind utilities;
 
 .contenedor-body{
-    @apply relative w-[1512] h-[4216] bg-white;
+    @apply relative w-[1350px] h-[4216px] bg-white;
 }
 .cont-header-pp{
     @apply px-0 py-[15px] bg-[#FFF159];
