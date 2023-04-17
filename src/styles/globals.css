@@ -1031,7 +1031,7 @@
 
 
 .seccion-pp{
-    @apply absolute w-[1512px] h-[505.19px] left-[-60px] top-[2117.5px] bg-gradient-to-b from-gray-200 to-transparent;
+    @apply absolute w-[1412px] h-[505.19px] left-[-60px] top-[2117.5px] bg-gradient-to-b from-gray-200 to-transparent;
     
 }
 
@@ -1047,7 +1047,7 @@
 }
 
 .formas-de-pago{
-    @apply absolute w-[1184px] h-[90px] left-1/2 transform -translate-x-1/2 top-[360px] bg-white shadow-sm rounded-md;
+    @apply absolute flex-col w-[1184px] h-[90px] left-1/2 transform -translate-x-1/2 top-[360px] bg-white shadow-sm rounded-md;
 }
 
 
