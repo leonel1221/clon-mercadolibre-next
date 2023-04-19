@@ -10,7 +10,7 @@
 @tailwind utilities;
 
 .contenedor-body{
-    @apply relative w-[1350px] h-[4216px] bg-white;
+    @apply relative w-[1350px] h-[4216px] justify-center  bg-white;
 }
 .cont-header-pp{
     @apply px-0 py-[15px] bg-[#FFF159];
@@ -368,7 +368,7 @@
 
 
 .section{
-    @apply absolute w-[1512px] h-[300px] left-[-2px] top-[3522.5px] bg-white;
+    @apply absolute w-[1352px] h-[300px]  top-[3522.5px] bg-white;
     
 }
 
@@ -503,7 +503,7 @@
   }
 
   .barra-ofertas-inter{
-    @apply absolute w-[8400px] h-[366px] left-0 top-[0px];
+    @apply absolute w-full h-[366px] left-0 top-[0px];
   }
 
   .contene-silla{
@@ -780,7 +780,7 @@
 }
 
 .streaming-interior{
-    @apply absolute w-[3600px] h-[250px] left-0 top-[0px];
+    @apply absolute w-[360px] h-[250px] left-0 top-[0px];
 
 }
 
@@ -1031,7 +1031,7 @@
 
 
 .seccion-pp{
-    @apply absolute w-[1412px] h-[505.19px] left-[-60px] top-[2117.5px] bg-gradient-to-b from-gray-200 to-transparent;
+    @apply absolute w-[1352px] h-[505.19px]  top-[2117.5px] bg-gradient-to-b from-gray-200 to-transparent;
     
 }
 
@@ -1112,7 +1112,7 @@
 }
 
 .contenedor-main{
-    @apply absolute h-[3586px] left-0 right-0 top-[100.5px] bg-gray-300;
+    @apply absolute h-[3986px] left-0 right-0 top-[100.5px] bg-gray-300;
     
 }
 
@@ -1121,7 +1121,7 @@
 }
 
 .aimagennovedades{
-    @apply absolute w-[1512px] h-[340px] left-[-162px] top-[100px];
+    @apply absolute w-[1352px] h-[340px]  top-[100px];
     
 }
 
