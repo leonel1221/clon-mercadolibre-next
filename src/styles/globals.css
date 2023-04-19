@@ -9,6 +9,9 @@
 @tailwind components;
 @tailwind utilities;
 
+.contenedor-body{
+    @apply relative w-[1350px] h-[4216px] justify-center  bg-white;
+}
 .cont-header-pp{
     @apply px-0 py-[15px] bg-[#FFF159];
 }
@@ -55,2601 +58,827 @@
 }
 
 .organization1{
-    position: absolute;
-    width: 170px;
-    left: 0px;
-    top: 0px;
-    bottom: 0px;
-    
+    @apply absolute w-[173px] left-[0px] top-[0px] bottom-[0px];
+
 }
 
 .img-organi1{
-    box-sizing: border-box;
+    @apply box-border absolute w-[150px] h-[150px] left-[0px] right-[0px] bottom-[200px] bg-white border-b border-r border-gray-300;
 
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    left: 0px;
-    right: 0px;
-    bottom: 200px;
-
-    background: #FFFFFF;
-    border-width: 0px 1px 1px 0px;
-    border-style: solid;
-    border-color: #EAE6E6;
 }
 
 .style-text-carromoto{
-    position: absolute;
-    width: 143.18px;
-    height: 21px;
-    left: 20px;
-    top: 80px;
-
+    @apply absolute w-[143.18px] h-[21px] left-[8px] top-[80px] font-normal text-sm leading-4 flex items-center justify-center text-center text-gray-700;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #333333;
 
 }
 
 .style-ico-carromoto{
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    left: calc(50% - 48px/2 + 1.5px);
-    top: 30px;
+    @apply absolute w-[48px] h-[48px] left-[60px] top-[30px];
 
 }
 
 .img-organi2{
-    box-sizing: border-box;
+    @apply box-border absolute w-[150px] h-[150px] left-0 right-0 bottom-[50px] bg-white border-b border-r border-gray-300;
 
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    left: 0px;
-    right: 0px;
-    bottom: 50px;
-
-    background: #FFFFFF;
-    border-width: 0px 1px 1px 0px;
-    border-style: solid;
-    border-color: #EAE6E6;
 }
 
 .style-text-celutele{
-    position: absolute;
-    width: 140.9px;
-    height: 21px;
-    left: 15.14px;
-    top: 90px;
-
+    @apply absolute w-[140.9px] h-[21px] left-[8.14px] top-[90px] font-normal text-sm leading-4 flex items-center justify-center text-center text-gray-700;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #333333;
 
 }
 
 .style-ico-celutele{
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    left: calc(50% - 48px/2 + 1.5px);
-    top: 30px;
-}
-
-.organization2{
-    position: absolute;
-    width: 170px;
-    left: 170px;
-    top: 0px;
-    bottom: 0px;
+    @apply  absolute w-[48px] h-[48px] left-[50px] top-[30px]
     
 }
 
+.organization2{
+    @apply absolute w-[170px] left-[170px] top-[0px] bottom-[0px];
+  
+}
+
 .img-compu{
-    box-sizing: border-box;
+    @apply box-border absolute w-[150px] h-[150px] left-[-20px] right-[0px] bottom-[200px] bg-white border-b border-r border-gray-300;
 
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    left: -20px;
-    right: 0px;
-    bottom: 200px;
-
-    background: #FFFFFF;
-    border-width: 0px 1px 1px 0px;
-    border-style: solid;
-    border-color: #EAE6E6;
 }
 
 .style-text-computacion{
-    position: absolute;
-    width: 87.89px;
-    height: 21px;
-    left: 40.66px;
-    top: 80px;
-
+    @apply absolute w-[87.89px] h-[21px] left-[40.66px] top-[80px] font-normal  flex items-center text-sm leading-4 text-center text-gray-700;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #333333;
-
 }
 
 .style-ico-compu{
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    left: calc(50% - 48px/2 + 1.5px);
-    top: 30px;
-
+    @apply absolute w-[48px] h-[48px] left-[50px] top-[30px];
 }
 
 .img-belleza{
-    box-sizing: border-box;
+    @apply absolute w-[150px] h-[150px] left-[-20px] bottom-[50px] box-border bg-white border-t border-r border-b border-gray-300;
 
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    left: -20px;
-    right: 0px;
-    bottom: 50px;
-
-    background: #FFFFFF;
-    border-width: 0px 1px 1px 0px;
-    border-style: solid;
-    border-color: #EAE6E6;
 }
 
 .style-text-belleza{
-    position: absolute;
-    width: 118.87px;
-    height: 42px;
-    left: 20.16px;
-    top: 90px;
-
+    @apply absolute w-[118.87px] h-[42px] left-[20.16px] top-[90px] font-normal font-[400] text-[12px] leading-[18px] flex items-center justify-center text-center text-gray-700;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #333333;
-
 }
 
 .style-ico-belleza{
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    left: calc(50% - 48px/2 + 1.5px);
-    top: 30px;
+    @apply absolute w-[48px] h-[48px] left-[50px] top-[30px];
+
 }
 
 .organization3{
-    position: absolute;
-    width: 170px;
-    left: 340px;
-    top: 0px;
-    bottom: 0px;
+    @apply absolute w-[170px] left-[340px] top-[0px] bottom-[0px];
+ 
     
 }
 
 .img-ropa{
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    left: -40px;
-    right: 0px;
-    bottom: 200px;
-
-    background: #FFFFFF;
-    border-width: 0px 1px 1px 0px;
-    border-style: solid;
-    border-color: #EAE6E6;
+    @apply box-border absolute w-[150px] h-[150px] left-[-40px] right-0 bottom-[200px] bg-white border-0 border-t-[1px] border-r-[1px] border-b-[1px] border-l-0 border-gray-300;
+    
 }
 
 .style-text-ropa{
-    position: absolute;
-    width: 121.67px;
-    height: 21px;
-    left: 23.77px;
-    top: 80px;
-
+    @apply absolute w-[121.67px] h-[21px] left-[15.77px] top-[80px] font-normal text-sm leading-[16px] flex items-center justify-center text-center text-gray-700;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #333333;
-
+  
 }
 
 .style-ico-ropa{
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    left: calc(50% - 48px/2 + 1.5px);
-    top: 25px;
+    @apply absolute w-[48px] h-[48px] left-[50px] top-[25px];
+
 }
 
 .img-deporte{
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    left: -40px;
-    right: 0px;
-    bottom: 50px;
-
-    background: #FFFFFF;
-    border-width: 0px 1px 1px 0px;
-    border-style: solid;
-    border-color: #EAE6E6;
+    @apply absolute box-border w-[150px] h-[150px] left-[-40px] right-[0px] bottom-[50px] bg-white border-b border-r border-gray-300;
+  
 }
 
 .style-text-deporte{
-    position: absolute;
-    width: 122.9px;
-    height: 21px;
-    left: 23.14px;
-    top: 90px;
-
+    @apply absolute w-[122.9px] h-[21px] left-[15.14px] top-[90px] font-normal font-sans text-sm leading-4 flex items-center justify-center text-center text-gray-700;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #333333;
 
 }
 
 .style-ico-deporte{
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    left: calc(50% - 48px/2 + 1.5px);
-    top: 30px;
+    @apply absolute w-[48px] h-[48px] left-[50px] top-[30px]
 
 }
 
 .organization4{
-    position: absolute;
-    width: 170px;
-    left: 510px;
-    top: 0px;
-    bottom: 0px;
-    
+    @apply absolute w-[170px] left-[510px] top-[0px] bottom-[0px]; 
 }
 
 .img-sofa{
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    left: -60px;
-    right: 0px;
-    bottom: 200px;
-
-    background: #FFFFFF;
-    border-width: 0px 1px 1px 0px;
-    border-style: solid;
-    border-color: #EAE6E6;
+    @apply absolute w-[150px] h-[150px] -left-[60px] right-[0px] bottom-[200px] box-border bg-white border-b border-r border-gray-300;
+    
 }
 
 .style-text-hogar{
-    position: absolute;
-    width: 112.29px;
-    height: 21px;
-    left: 28.45px;
-    top: 80px;
-
+    @apply absolute w-[112.29px] h-[21px] left-[15.45px] top-[80px] font-normal text-sm leading-4 flex items-center justify-center text-center text-gray-700;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #333333;
+    
 
 }
 
 .style-ico-hogar{
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    left: calc(50% - 48px/2 + 1.5px);
-    top: 30px;
+    @apply absolute w-[48px] h-[48px] left-[50px] top-[30px];
+
 }
 
 .img-electonica{
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    left: -60px;
-    right: 0px;
-    bottom: 50px;
-
-    background: #FFFFFF;
-    border-width: 0px 1px 1px 0px;
-    border-style: solid;
-    border-color: #EAE6E6;
+    @apply absolute box-border w-[150px] h-[150px] left-[-60px] right-0 bottom-[50px] bg-white border-b border-r border-gray-300;  
 }
 
 .style-text-electronica{
-    position: absolute;
-    width: 129.98px;
-    height: 42px;
-    left: 9.61px;
-    top: 90px;
-
-    font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #333333;
-
+    @apply absolute w-[129.98px] h-[42px] left-[9.61px] top-[90px] font-normal text-sm leading-[18px] flex items-center justify-center text-center text-gray-700;
+    font-family: Roboto,sans-serif;   
 }
 
 .style-ico-electronica{
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    left: calc(50% - 48px/2 + 1.5px);
-    top: 30px;
+    @apply absolute w-[48px] h-[48px] left-[50px] top-[25px];
+
 }
 
 .organization5{
-    position: absolute;
-    width: 170px;
-    left: 680px;
-    top: 0px;
-    bottom: 0px;
-    
+    @apply absolute w-[170px] left-[680px] top-[0px] bottom-[0px];
 }
 
 .img-accesorios{
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    left: -80px;
-    right: 0px;
-    bottom: 200px;
-
-    background: #FFFFFF;
-    border-width: 0px 1px 1px 0px;
-    border-style: solid;
-    border-color: #EAE6E6;
+    @apply box-border absolute w-[150px] h-[150px] left-[-80px] right-0 bottom-[200px] bg-white border-b border-r border-gray-300;
+    
 }
 
 .style-text-accesorio{
-    position: absolute;
-    width: 106.04px;
-    height: 42px;
-    left: 21.58px;
-    top: 80px;
-
+    @apply absolute w-[106.04px] h-[42px] left-[35.58px] top-[80px] font-serif font-normal text-sm leading-[18px] flex items-center justify-center text-gray-700;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #333333;
-
+    
 }
 
 .style-ico-accesorio{
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    left: calc(50% - 48px/2 + 1.5px);
-    top: 30px;
+    @apply absolute w-[48px] h-[48px] left-[50px] top-[30px];
+
 }
 
 .img-consola{
-    box-sizing: border-box;
+    @apply box-border absolute w-[150px] h-[150px] left-[-80px] right-[0px] bottom-[50px] bg-white border-b border-r border-gray-300;
 
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    left: -80px;
-    right: 0px;
-    bottom: 50px;
-
-    background: #FFFFFF;
-    border-width: 0px 1px 1px 0px;
-    border-style: solid;
-    border-color: #EAE6E6;
 }
 
 .style-text-consola{
-    position: absolute;
-    width: 83.36px;
-    height: 32px;
-    left: 32.92px;
-    top: 90px;
-
+    @apply absolute w-[83.36px] h-[32px] left-[48.92px] top-[90px] font-normal text-sm leading-[18px] flex items-center justify-center text-gray-700;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #333333;
+    
 
 }
 
 .style-ico-consola{
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    left: calc(50% - 48px/2 + 1.5px);
-    top: 30px;
+    @apply absolute w-[48px] h-[48px] left-[50px] top-[30px];
+
 }
 
 .organization6{
-    position: absolute;
-    width: 170px;
-    left: 850px;
-    top: 0px;
-    bottom: 0px;
+    @apply absolute w-[170px] left-[850px] top-[0px] bottom-[0px];
+  
     
 }
 
 .img-electrodomesticos{
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    left: -100px;
-    right: 0px;
-    bottom: 200px;
-
-    background: #FFFFFF;
-    border-width: 0px 1px 1px 0px;
-    border-style: solid;
-    border-color: #EAE6E6;
+    @apply box-border absolute w-[150px] h-[150px] left-[-100px] right-0 bottom-[200px] bg-white border-b border-r border-gray-300;
+    
 }
 
 .style-text-electrodomesticos{
-    position: absolute;
-    width: 121.43px;
-    height: 21px;
-    left: 23.88px;
-    top: 90px;
-
+    @apply absolute w-[121.43px] h-[21px] left-[23.88px] top-[90px] font-normal text-sm leading-4 flex items-center justify-center text-center text-gray-700;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #333333;
+    
 
 }
 
 .style-ico-electrodomesticos{
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    left: calc(50% - 48px/2 + 1.5px);
-    top: 30px;
+    @apply absolute w-[48px] h-[48px] left-[50px] top-[30px];
 
 }
 
 .img-juegos{
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    left: -100px;
-    right: 0px;
-    bottom: 50px;
-
-    background: #FFFFFF;
-    border-width: 0px 1px 1px 0px;
-    border-style: solid;
-    border-color: #EAE6E6;
+    @apply box-border absolute w-[150px] h-[150px] left-[-100px] right-[0px] bottom-[50px] bg-white border-b border-r border-gray-300;
+   
 }
 
 .style-text-juegos{
-    position: absolute;
-    width: 123.84px;
-    height: 21px;
-    left: 22.67px;
-    top: 90px;
-
+    @apply absolute w-[123.84px] h-[21px] left-[15.67px] top-[90px] font-normal text-sm leading-4 flex items-center justify-center text-center text-gray-700;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #333333;
-
+    
 }
 
 .style-ico-juegos{
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    left: calc(50% - 48px/2 + 1.5px);
-    top: 30px;
+    @apply absolute w-[48px] h-[48px] left-[50px] top-[30px] bg-white border-b border-r border-gray-300;
+    
 
 }
 
 .organization7{
-    position: absolute;
-    width: 170px;
-    left: 1020px;
-    top: 0px;
-    bottom: 0px;
+    @apply absolute w-[170px] left-[1020px] top-[0px] bottom-[0px];
+    
     
 }
 
 .img-camaras{
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    left: -120px;
-    right: 0px;
-    bottom: 200px;
-
-    background: #FFFFFF;
-    border-width: 0px 1px 1px 0px;
-    border-style: solid;
-    border-color: #EAE6E6;
+    @apply box-border absolute w-[150px] h-[150px] left-[-120px] right-[0px] bottom-[200px] bg-white border-b border-r border-gray-300;
+    
+    
 }
 
 .style-text-camaras{
-    position: absolute;
-    width: 72.81px;
-    height: 42px;
-    left: 48.19px;
-    top: 110px;
-
+    @apply absolute w-[72.81px] h-[42px] left-[38.19px] top-[85px] flex items-center justify-center text-center font-normal text-sm leading-4 text-gray-700;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #333333;
+    
 
 }
 
 .style-ico-camaras{
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    left: calc(50% - 48px/2 + 1.5px);
-    top: 50px;
+    @apply absolute w-[48px] h-[48px] left-[50px] top-[30px];
+
+   
 }
 
 .img-herramientas{
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    left: -120px;
-    right: 0px;
-    bottom: 50px;
-
-    background: #FFFFFF;
-    border-width: 0px 1px 1px 0px;
-    border-style: solid;
-    border-color: #EAE6E6;
+    @apply box-border absolute w-[150px] h-[150px] left-[-120px] right-[0px] bottom-[50px] bg-white border-b border-r border-gray-300;
+    
 }
 
 .style-text-herramientas{
-    position: absolute;
-    width: 88.64px;
-    height: 21px;
-    left: 40.28px;
-    top: 90px;
-
+    @apply absolute w-[88.64px] h-[21px] left-[30.28px] top-[90px] flex items-center justify-center text-sm font-normal text-gray-700;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #333333;
-
+    
 }
 
 .style-ico-herramientas{
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    left: calc(50% - 48px/2 + 1.5px);
-    top: 30px;
+    @apply absolute w-[48px] h-[48px] left-[50px] top-[30px];
+    
 }
 
 .colecciones{
-    
-    position: absolute;
-    width: 1200px;
-    height: 382px;
-    left: 100px;
-    top: 2709.69px;
+    @apply absolute w-[1200px] h-[382px] left-[90px] top-[2709.69px];
 }
 
 .pedigre{
-    position: absolute;
-    width: 383px;
-    height: 281px;
-    left: 0px;
-    top: -7px;
-
-    
-    background:  #FFFFFF;
-    
+    @apply absolute w-[383px] h-[281px] left-0 top-[-7px] bg-white;
 
 }
 
 .container-super{
-    position: absolute;
-    width: 383px;
-    height: 89px;
-    left: 0px;
-    top: 275px;
+    @apply absolute w-[383px] h-[100px] left-0 top-[275px] bg-white rounded-b-[4px];
 
-    background: #FFFFFF;
-    border-radius: 0px 0px 4px 4px;
 }
 
 .conta-super-inter{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 4px 137px 4px 0px;
-
-    position: absolute;
-    width: 358px;
-    height: 41px;
-    left: 25px;
-    top: 10px;
-}
-
-
-.ulcategopopulares{
-    position: absolute;
-    height: 1px;
-    left: 1147px;
-    right: 5px;
-    top: 50px;
+    @apply absolute w-[358px] h-[41px] left-[12px] top-[30px] flex flex-row items-start px-4 pr-[137px];   
 }
 
 .contenedor-categorias{
-    width: 1190px;
-    height: 340px;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    @apply w-[1160px] h-[340px] flex flex-grow-0;
+ 
 }
 .categorias-text{
-    
-    width: 241.36px;
-    height: 37px;
-    left: 8px;
-    top: 37px;
+    @apply w-[241.36px] h-[37px] left-[8px] top-[7px] font-normal text-2xl leading-[31px] flex items-center text-gray-600;
+    font-family: Roboto,sans-serif;
 
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 31px;
-
-
-    display: flex;
-    align-items: center;
-
-    color: #666666;
 }
 
 .tex-super{
-    width: 221px;
-    height: 33px;
+    @apply w-[221px] h-[33px] font-bold text-[20px] leading-[33px] flex items-center uppercase text-gray-700 flex-none flex-grow-0;
+    font-family: Roboto,sans-serif;
 
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 33px;
-    /* identical to box height */
-
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
-
-    color: #4B4B4B;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
 .tex-descubre{
-    position: absolute;
-    width: 93.82px;
-    height: 18px;
-    left: 25px;
-    top: 20px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 5px;
-    line-height: 14px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-
-    color: #4B4B4B;
+    @apply absolute w-[93.82px] h-[18px] left-[25px] top-[20px] font-medium text-xs leading-[14px] flex items-center tracking-[4px] uppercase text-gray-700;
+    font-family: Roboto,sans-serif;
 }
 
 .colecciones-inter{
-    position: absolute;
-    width: 800px;
-    height: 400px;
-    left: 391px;
-    top: -8px;
-}
-.box-categorias{
-    position: absolute;
-    width: 1200px;
-    height: 473.19px;
-    left: calc(50% - 1200px/2 - 8px);
-    top: 3131.69px;
+    @apply absolute w-[800px] h-[400px] left-[391px] top-[-8px];
 }
 
-.mini-box-categorias{
-    box-sizing: border-box;
-
-    position: absolute;
-    height: 170px;
-    left: 0px;
-    right: 0px;
-    bottom: 170px;
-
-    background: #FFFFFF;
-    border-width: 0px 1px 1px 0px;
-    border-style: solid;
-    border-color: #EAE6E6;
+.colecciones-inter2{
+    @apply absolute w-[800px] h-[400px] left-[391px] top-[190px];
 }
+
 
 .section{
-    position: absolute;
-    width: 1512px;
-    height: 300px;
-    left: -2px;
-    top: 3522.5px;
-
-    background: #FFFFFF;
+    @apply absolute w-[1352px] h-[300px]  top-[3522.5px] bg-white;
+    
 }
 
 .section-int{
-    position: absolute;
-    width: 1200px;
-    height: 80px;
-    left: 80px;
-    top: 0px;
+    @apply absolute w-[1200px] h-[80px] left-[80px] top-[0px];
+    
 }
 
 .payment{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-
-    position: absolute;
-    width: 66px;
-    height: 46px;
-    left: calc(50% - 66px/2);
-    top: calc(50% - 46px/2 - 72px);
+    @apply flex flex-row items-start p-0 absolute w-[66px] h-[46px] left-[150px] top-[40px];
+   
 }
 
 .pagacontarje{
-    position: absolute;
-    width: 260.89px;
-    height: 29px;
-    left: 69.66px;
-    top: 105px;
-
+    @apply absolute w-[260.89px] h-[29px] left-[59.66px] top-[105px] font-medium text-2xl leading-[28px] flex items-center justify-center text-center text-gray-700;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 28px;
-    /* or 147% */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #4B4B4B;
+    
 
 }
 
 .conmercado{
-    position: absolute;
-    width: 303.4px;
-    height: 75px;
-    left: 36.39px;
-    top: 136px;
-
+    @apply absolute w-[303.4px] h-[75px] left-[36.39px] top-[136px] text-base leading-[18px] font-normal flex items-center justify-center text-center text-gray-500;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 18px;
-    /* or 120% */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #999999;
-
+    
 }
 
 .comopagar{
-    position: absolute;
-    width: 195.11px;
-    height: 20px;
-    left: 105.55px;
-    top: 220px;
-
+    @apply absolute w-[195.11px] h-[20px] left-[85.55px] top-[220px] font-normal text-sm leading-[15px] flex items-center justify-center text-center text-blue-500;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 15px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #3483FA;
 
 }
 
 .shiping{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-
-    position: absolute;
-    width: 56px;
-    height: 49px;
-    left: calc(50% - 56px/2);
-    top: calc(50% - 49px/2 - 61.5px);
+    @apply absolute flex flex-row items-start p-0 w-[56px] h-[49px] absolute left-[180px] top-[30px];
+    
 }
 
 .enviogratis{
-    position: absolute;
-    width: 248.73px;
-    height: 29px;
-    left: 85.73px;
-    top: 105px;
-
+    @apply absolute w-[248.73px] h-[29px] left-[85.73px] top-[105px] font-medium text-2xl leading-[28px] flex items-center justify-center text-gray-700;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 28px;
-    /* or 140% */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #4B4B4B;
-
+    
 }
 
 .consolotext{
-    position: absolute;
-    width: 288.61px;
-    height: 57px;
-    left: 55.8px;
-    top: 136px;
-
+    @apply absolute w-[288.61px] h-[57px] left-[55.8px] top-[136px] font-normal text-[13px] leading-[18px] flex items-center text-center text-gray-500;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 18px;
-    /* or 120% */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #999999;
-
+    
 }
 
 .concebenefi{
-    position: absolute;
-    width: 206.06px;
-    height: 20px;
-    left: 117.06px;
-    top: 202px;
-
+    @apply absolute w-[206.06px] h-[20px] left-[117.06px] top-[202px] font-normal text-[11px] leading-[15px] flex items-center text-center text-blue-500;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 15px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #3483FA;
-
+    
 }
 
 .protecte{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
+    @apply flex flex-row items-start p-0 absolute w-[51px] h-[55px] left-[160px] top-[30px];
 
-    position: absolute;
-    width: 51px;
-    height: 55px;
-    left: calc(50% - 51px/2);
-    top: calc(50% - 55px/2 - 58.5px);
 }
 
 .seguridadtext{
-    position: absolute;
-    width: 245.48px;
-    height: 29px;
-    left: 77.36px;
-    top: 105px;
-
+    @apply absolute w-[245.48px] h-[29px] left-[77.36px] top-[105px] font-normal font-medium text-2xl leading-7 flex items-center text-center text-gray-700;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 28px;
-    /* or 147% */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #4B4B4B;
-
+    
 }
 
 .notegustatext{
-    position: absolute;
-    width: 296.23px;
-    height: 57px;
-    left: 51.98px;
-    top: 136px;
-
+    @apply absolute w-[296.23px] h-[57px] left-[51.98px] top-[136px] font-normal text-[13px] leading-[18px] flex items-center text-center text-gray-500;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 18px;
-    /* or 120% */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #999999;
-
+    
 }
 
 .comotegustatext{
-    position: absolute;
-    width: 130.64px;
-    height: 20px;
-    left: 145.78px;
-    top: 202px;
-
+    @apply absolute w-[130.64px] h-[20px] left-[135.78px] top-[202px] font-normal text-blue-500 text-center text-sm leading-5 flex items-center;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 15px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #3483FA;
-
+    
 }
 
 
 .section1{
-    position: absolute;
-    height: 260px;
-    left: 0px;
-    right: 800px;
-    top: 40px;
+    @apply absolute h-[260px] left-[0px] right-[800px] top-[40px];
+    
 }
 
 .section2{
-    position: absolute;
-    height: 242px;
-    left: 400px;
-    right: 400px;
-    top: 40px;
+    @apply absolute h-[242px] left-[400px] right-[400px] top-[40px];
+    
 
 }
 
 .section3{
-    position: absolute;
-    height: 242px;
-    left: 800px;
-    right: 0px;
-    top: 40px;
+    @apply absolute h-[242px] left-[800px] right-[0px] top-[40px];
 
 }
 
 .seccion-tiendas{
-    position: absolute;
-    width: 454.64px;
-    height: 31.19px;
-    left: 0px;
-    top: 40px;
+    @apply w-[454.64px] h-[31.19px] absolute left-[0px] top-[40px];
 }
 
 .mejores-tiendas{
-    position: absolute;
-    width: 342px;
-    height: 32px;
-    left: 8px;
-    top: 0px;
-
+    @apply absolute w-[342px] h-[32px] left-[8px] top-[0px]  font-normal flex items-center font-light text-xl leading-9 text-gray-600;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 22px;
-    line-height: 31px;
-    /* identical to box height, or 125% */
 
-    display: flex;
-    align-items: center;
-
-    color: #666666;
 }
 
 .ver-tiendas{
-    position: absolute;
-    width: 76px;
-    height: 20px;
-    left: 375.45px;
-    top: 10px;
-
+    @apply absolute w-[76px] h-[20px] left-[275.45px] top-[10px] font-normal flex items-center text-sm leading-5 text-blue-500;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 19px;
-    /* identical to box height, or 128% */
 
-    display: flex;
-    align-items: center;
-
-    color: #3483FA;
 }
-.lego-principal{
-    /*position: absolute;*/
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 10px;
-    width: 85vw;
-    padding: 16px;
-    height: 340px;
-    left: 8px;
-    top: 0px;
-
-    background: #FFFFFF;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1), 0px -1px 2px rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
-}
-
-.card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 15px;
-    padding: 16px;
-    border-radius: 6px;
-    width: 181px;
-  }
 
   .ofertas-pp{
-    position: absolute;
-    width: 1200px;
-    height: 460.19px;
-    left: calc(50% - 1200px/2);
-    top: 480px;
+    @apply absolute w-[1200px] h-[460.19px] left-[80px] top-[480px];
   }
 
   .ofertas-titulo{
-    position: absolute;
-    width: 173.3px;
-    height: 31.19px;
-    left: 0px;
-    top: 40px;
+    @apply absolute w-[173.3px] h-[31.19px] left-0 top-[40px];
   }
 
   .barra-ofertas{
-    position: absolute;
-    width: 1200px;
-    height: 415px;
-    left: 0px;
-    top: 93.19px;
+    @apply absolute w-[1200px] h-[415px] left-0 top-[93.19px];
   }
 
   .texto-ofertas{
-    position: absolute;
-    width: 82px;
-    height: 32px;
-    left: 8px;
-    top: 0px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 25px;
-    line-height: 31px;
-    /* identical to box height, or 125% */
-
-    display: flex;
-    align-items: center;
-
-    color: #666666;
-
+    @apply absolute w-[82px] h-[32px] left-[8px] top-[0px] font-normal font-light text-2xl leading-6 flex items-center text-gray-600;
+    font-family: Roboto,sans-serif;
   }
 
   .texto-vertdas{
-    position: absolute;
-    width: 64px;
-    height: 20px;
-    left: 106.38px;
-    top: 10px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 19px;
-    /* identical to box height, or 128% */
-
-    display: flex;
-    align-items: center;
-
-    color: #3483FA;
+    @apply absolute w-[64px] h-[20px] left-[106.38px] top-[10px] font-normal font-medium text-sm leading-5 flex items-center text-blue-500;
+    font-family: Roboto,sans-serif;
   }
 
   .barra-ofertas-inter{
-    position: absolute;
-    width: 8400px;
-    height: 366px;
-    left: 0px;
-    top: 0px;
-
+    @apply absolute w-full h-[366px] left-0 top-[0px];
   }
 
   .contene-silla{
-    position: absolute;
-    width: 224px;
-    height: 350px;
-    left: 8px;
-    top: 0px;
-
-    background: #FFFFFF;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
+    @apply absolute w-[224px] h-[350px] left-[8px] top-[0px] bg-white shadow-sm rounded-md;
   }
-
-  .oferta-silla{
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 224px;
-    height: 130.38px;
-    left: 0px;
-    top: 22px;
-
-    border-top: 1px solid rgba(51, 51, 51, 0.1);
-  }
-
-  .conte-precio-sillas{
-    position: absolute;
-    width: 198px;
-    height: 47px;
-    left: 16px;
-    top: 19px;
-
-  }
-
-  .conte-oferta-armario{
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 224px;
-    height: 130.38px;
-    left: 0px;
-    top: 224px;
-
-    border-top: 1px solid rgba(51, 51, 51, 0.1);
-  }
-  .text-precioarmariodescuento{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px 1.32812px 0px 0px;
-    gap: 10px;
-
-    position: absolute;
-    width: 169.42px;
-    height: 24px;
-    left: 0px;
-    top: 0px;
-  }
+ 
   .conte-precio-armario{
-    box-sizing: border-box;
+    @apply absolute w-[224px] h-[130.38px] left-0 top-[224px] box-border border-t border-gray-400;
+    
+  }
 
-    position: absolute;
-    width: 224px;
-    height: 130.38px;
-    left: 0px;
-    top: 224px;
 
-    border-top: 1px solid rgba(51, 51, 51, 0.1);
+  .estilo-precios-descuento{
+    @apply w-[74px] h-[24px] flex font-normal font-medium text-2xl leading-6 items-center text-gray-700;
+    font-family: Roboto,sans-serif;
+  }
+
+  .simbolo-precio{
+    @apply w-[14px] h-[24px] flex flex-row items-start font-normal font-medium text-2xl leading-6 text-gray-700;
+    font-family: Roboto,sans-serif; 
+  }
+
+  
+  .descuesto-off{
+    @apply w-[55px] h-[16px] flex font-normal text-sm leading-4 items-center text-green-600;
+    font-family: Roboto,sans-serif; 
+  }
+
+  .contene-microfono{
+    @apply absolute w-[224px] h-[350px] left-[248px] top-[0px] bg-white shadow-sm rounded-md;
+  }
+
+  .oferta-microfono{
+    @apply box-border absolute w-[224px] h-[134.39px] left-0 top-[224px] border-t border-gray-400 border-opacity-25;
+  }
+
+  .conten-precio-microfono{
+    @apply absolute w-[192px] h-[51px] left-[16px] top-[19px];
+  }
+
+  .envíogrstis-full{
+    @apply absolute w-[192px] h-[10px] left-[75px] top-[35px] flex font-normal text-sm font-semibold leading-4 text-green-600;
+    font-family: Roboto,sans-serif; 
+  }
+
+  .text-eviomicro{
+    @apply absolute w-[73.18px] h-[20px] left-0 top-[30px] flex font-normal text-sm font-semibold leading-4 text-green-600;
+    font-family: Roboto,sans-serif; 
   }
 
   
 
-  .envio-gratis-silla{
-    position: absolute;
-    width: 73.18px;
-    height: 20px;
-    left: 0px;
-    top: 29px;
-
-    font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 16px;
-    /* or 123% */
-
-    display: flex;
-    align-items: center;
-
-    color: #00A650;
-
-  }
-
-  .precio-silla-descuento{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px 1px 0px 0px;
-    gap: 10px;
-
-    position: absolute;
-    width: 170.31px;
-    height: 24px;
-    left: 0px;
-    top: 0px;
-  }
-
-  .estilo-precios-descuento{
-    width: 74px;
-    height: 24px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 24px;
-    /* identical to box height, or 100% */
-
-    display: flex;
-    align-items: center;
-
-    color: #333333;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-  }
-
-  .simbolo-precio{
-    width: 14px;
-    height: 24px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 24px;
-    /* identical to box height, or 100% */
-
-    display: flex;
-    align-items: center;
-
-    color: #333333;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-  }
-
-  .valor-silla{
-    width: 84px;
-    height: 24px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 23px;
-    line-height: 24px;
-    /* identical to box height, or 104% */
-
-    display: flex;
-    align-items: center;
-
-    color: #333333;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-  }
-
-  .descuesto-off{
-    width: 55px;
-    height: 16px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    display: flex;
-    align-items: center;
-
-    color: #00A650;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-  }
-
-  .contene-microfono{
-    position: absolute;
-    width: 224px;
-    height: 350px;
-    left: 248px;
-    top: 0px;
-
-    background: #FFFFFF;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
-  }
-
-  .oferta-microfono{
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 224px;
-    height: 134.39px;
-    left: 0px;
-    top: 224px;
-
-    border-top: 1px solid rgba(51, 51, 51, 0.1);
-  }
-
-  .conten-precio-microfono{
-    position: absolute;
-    width: 192px;
-    height: 51px;
-    left: 16px;
-    top: 19px;
-
-  }
-
-  .envíogrstis-full{
-    position: absolute;
-    width: 192px;
-    height: 10px;
-    left: 75px;
-    top: 35px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 16px;
-    /* or 123% */
-
-    display: flex;
-    align-items: center;
-
-    color: #00A650;
-  }
-
-  .text-eviomicro{
-    position: absolute;
-    width: 73.18px;
-    height: 20px;
-    left: 0px;
-    top: 30px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 16px;
-    /* or 123% */
-
-    display: flex;
-    align-items: center;
-
-    color: #00A650;
-  }
-
-  .text-enviogratis-micro{
-    position: absolute;
-    width: 73.18px;
-    height: 20px;
-    left: 0px;
-    top: 0px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 16px;
-    /* or 123% */
-
-    display: flex;
-    align-items: center;
-
-    color: #00A650;
-  }
-
   .text-precio-micro{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px 1.45312px 0px 0px;
-    gap: 10px;
-
-    position: absolute;
-    width: 159.81px;
-    height: 24px;
-    left: 0px;
-    top: 0px;
+    @apply absolute w-[159.81px] h-[24px] left-0 top-[0px] flex flex-row items-center px-0.5 gap-4;
   }
 
   .text-preciomicro-inte{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px 0.328125px 0px 0px;
-    gap: 5.03px;
-
-    width: 93.36px;
-    height: 24px;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    @apply w-[93.36px] h-[24px]  flex flex-row items-start ;
   }
 
   .contene-afeitadora{
-    position: absolute;
-    width: 224px;
-    height: 350px;
-    left: 488px;
-    top: 0px;
-
-    background: #FFFFFF;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
+    @apply absolute w-[224px] h-[350px] left-[488px] top-[0px] bg-white shadow-sm rounded-md;
   }
 
   .conte-precio-afeita{
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 224px;
-    height: 130.38px;
-    left: 0px;
-    top: 224px;
-
-    border-top: 1px solid rgba(51, 51, 51, 0.1);
+    @apply absolute w-[224px] h-[130.38px] left-0 top-[224px] box-border border-t border-gray-400;
   }
 
   .contene-precio-armario{
-    position: absolute;
-    width: 198px;
-    height: 47px;
-    left: 16px;
-    top: 19px;
+    @apply absolute w-[198px] h-[47px] left-[16px] top-[19px];
   }
 
   .conte-precio-corti{
-    position: absolute;
-    width: 192px;
-    height: 51px;
-    left: 16px;
-    top: 19px;
+    @apply absolute w-[192px] h-[51px] left-[16px] top-[19px];
   }
 
   .porcentaje-decuentocortinas{
-    position: absolute;
-    width: 51px;
-    height: 15px;
-    left: 105.23px;
-    top: 4px;
-
+    @apply absolute w-[51px] h-[15px] left-[105.23px] top-[4px] flex font-normal text-xs leading-5 items-center text-green-600;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 15px;
-    display: flex;
-    align-items: center;
-
-    color: #00a650;
   }
 
 
   .contene-precio-afeita{
-    position: absolute;
-    width: 198px;
-    height: 47px;
-    left: 16px;
-    top: 19px;
+    @apply absolute w-[198px] h-[47px] left-[16px] top-[19px];
   }
 
   .text.precio-afeita{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px 1.79688px 0px 0px;
-    gap: 10px;
-
-    position: absolute;
-    width: 169.28px;
-    height: 24px;
-    left: 0px;
-    top: 0px;
+    @apply absolute w-[169.28px] h-[24px] left-0 top-[0px] flex flex-grow items-center gap-10;
   }
 
   .text.precio-armario{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px 1.79688px 0px 0px;
-    gap: 10px;
-
-    position: absolute;
-    width: 169.28px;
-    height: 24px;
-    left: 0px;
-    top: 0px;
+    @apply absolute w-[169.28px] h-[24px] left-0 top-[0px] flex flex-grow items-center gap-10;
   }
 
   .text-precio-corti{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px 1.79688px 0px 0px;
-    gap: 10px;
-
-    position: absolute;
-    width: 169.28px;
-    height: 24px;
-    left: 0px;
-    top: 0px;
+    @apply absolute w-[169.28px] h-[24px] left-0 top-[0px] flex flex-grow items-center gap-10;
   }
 
   .contenedor-armario{
-    position: absolute;
-    width: 224px;
-    height: 350px;
-    left: 728px;
-    top: 0px;
-
-    background: #FFFFFF;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
+    @apply absolute w-[224px] h-[350px] left-[728px] top-[0px] bg-white shadow-sm rounded-md p-4;
   }
   
   .contenedor-cortinas{
-    position: absolute;
-    width: 224px;
-    height: 350px;
-    left: 968px;
-    top: 0px;
-
-    background: #FFFFFF;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
+    @apply absolute w-[224px] h-[350px] left-[968px] top-[0px] bg-white shadow-sm rounded-md;
   }
 
   .conte-oferta-cortinas{
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 224px;
-    height: 134.38px;
-    left: 0px;
-    top: 224px;
-
-    border-top: 1px solid rgba(51, 51, 51, 0.1);
+    @apply absolute w-[224px] h-[134.38px] left-0 top-[224px] border-t border-gray-300;
   }
 
   .sube-al-nivel-pp{
-    position: absolute;
-    width: 1180px;
-    height: 340px;
-    left: 80px;
-    top: 980.19px;
-
-    background: #FFFFFF;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
-    border-radius: 6px;
+    @apply absolute w-[1180px] h-[340px] left-[80px] top-[980.19px] bg-white shadow-sm rounded-md;
+ 
   }
 
   .suscribete-nivel-arriba{
-    position: absolute;
-    width: 1180px;
-    height: 87px;
-    left: 0px;
-    top: 0px;
-
-    background: linear-gradient(90deg, #A90F90 55%, #0C1A51 100%);
+    @apply absolute w-[1180px] h-[87px] left-[0px] top-[0px] bg-gradient-to-r from-pink-700 to-blue-900;
   }
 
   .suscribete-nivel-centro{
-    position: absolute;
-    width: 1180px;
-    height: 172px;
-    left: 0px;
-    top: 87px;
+    @apply absolute w-[1180px] h-[172px] left-[0px] top-[87px];
   }
 
   .consigue-mejores-precios{
-    position: absolute;
-    width: 400.15px;
-    height: 25px;
-    left: 24px;
-    top: 20px;
-
+    @apply absolute w-[400.15px] h-[25px] left-[24px] top-[20px] font-normal text-base leading-5 flex items-center text-black;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 18px;
-    /* or 106% */
-
-    display: flex;
-    align-items: center;
-
-    color: #000000;
-
   }
 
   .barra-envios{
-    position: absolute;
-    width: 1132px;
-    height: 74px;
-    left: 24px;
-    top: 74px;
+    @apply absolute w-[1132px] h-[74px] left-[24px] top-[74px];
+
   }
 
   .disneysincargo{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px 168.328px 0px 0px;
-    gap: 16px;
-
-    position: absolute;
-    width: 377.33px;
-    height: 74px;
-    left: 0px;
-    top: 0px;
+    @apply absolute w-[377.33px] h-[74px] left-[0px] top-[0px] flex items-center gap-4 flex-row pr-[96];
+    
   }
 
   .textdisneysincargo{
-    width: 119px;
-    height: 16px;
-    
+    @apply w-[119px] h-[16px] font-normal flex items-center text-black text-base leading-5;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    /* identical to box height, or 107% */
-
-    display: flex;
-    align-items: center;
-
-    color: #000000;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
   }
 
   .cont-disney-sincargo{
-    box-sizing: border-box;
-
-    width: 74px;
-    height: 74px;
-
-    border: 1px solid #EFEFEF;
-    border-radius: 37px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    @apply w-[74px] h-[74px] box-border border-2 border-gray-200 rounded-3xl flex-grow-0; 
+    
   }
 
   .ldiseyplus{
-    position: absolute;
-    height: 72px;
-    left: 1px;
-    right: 1px;
-    top: 1px;
-
+    @apply absolute h-[72px] left-[1px] right-[1px] top-[1px];
   }
   
   .envios-gratis{
-    position: absolute;
-    width: 73.18px;
-    height: 20px;
-    left: 780px;
-    top: 29px;
-
+    @apply absolute w-[73.18px] h-[20px] left-[780px] top-[29px] font-semibold gap-4 text-xs leading-4 flex items-center text-green-600;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 16px;
-    /* or 123% */
 
-    display: flex;
-    align-items: center;
-
-    color: #00A650;
   }
 
   .text-carritoenvios{
-    width: 240.39px;
-    height: 48px;
-
+    @apply  w-[240.39px] h-[48px] font-normal flex items-center text-base leading-5 text-black flex-none flex-grow-0;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    /* or 100% */
-
-    display: flex;
-    align-items: center;
-
-    color: #000000;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
   }
 
   .conte-carro-envios{
-    box-sizing: border-box;
-
-    width: 74px;
-    height: 74px;
-
-    border: 1px solid #EFEFEF;
+    @apply w-[74px] h-[74px] box-border border border-gray-300  flex-none flex-grow-0;
     border-radius: 37px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    
   }
-  .starsinrecargo{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px 186.328px 0px 0px;
-    gap: 16px;
 
-    position: absolute;
-    width: 377.33px;
-    height: 74px;
-    left: 377.33px;
-    top: 0px;
+  .starsinrecargo{
+    @apply absolute w-[377.33px] h-[74px] left-[377.33px] top-[0px] flex items-center gap-16 flex-row pr-72;
   }
 
   .textstarsinrecargo{
-    width: 101px;
-    height: 16px;
-
+    @apply w-[101px] h-[16px] font-normal flex items-center text-base leading-6 text-black flex-none order-1 flex-grow-0;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    /* identical to box height, or 107% */
-
-    display: flex;
-    align-items: center;
-
-    color: #000000;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
   }
 
   .conten-star-sinrecargo{
-    box-sizing: border-box;
-
-    width: 74px;
-    height: 74px;
-
-    border: 1px solid #EFEFEF;
-    border-radius: 37px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    @apply box-border w-[74px] h-[74px] border border-gray-300 rounded-full flex-none flex-grow-0;
+    
   }
 
   .lstarplus{
-    position: absolute;
-    height: 72px;
-    left: 1px;
-    right: 1px;
-    top: 1px;
-  }
-
-  .text-boton-sucribete-nivel{
-    position: absolute;
-    width: 75.92px;
-    height: 23px;
-    left: 24px;
-    top: 12px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 48px;
-    /* or 320% */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #FFFFFF;
+    @applay absolute h-[72px] left-[1px] right-[1px] top-[1px];
+ 
   }
 
   .boton-suscribete-nivel{
-    position: absolute;
-    width: 123.72px;
-    height: 48px;
-    left: 1026.28px;
-    top: calc(50% - 48px/2 + 0.5px);
-
-    background: #3483FA;
-    border-radius: 6px;
+    @apply absolute h-[48px] w-[123.72px] left-[1026.28px] top-[1px] top-1/2 transform -translate-y-1/2 bg-blue-500 rounded-md;
   }
 
   .suscribete-nivel-abajo{
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 1180px;
-    height: 81px;
-    left: 0px;
-    top: 259px;
-
-    border-top: 1px solid #EDEDED;
+    @apply box-border absolute w-[1180px] h-[81px] left-[0px] top-[259px] border-t border-gray-300;
   }
 
   .texto-sucribete-nivel{
-    position: absolute;
-    width: 233.95px;
-    height: 38px;
-    left: 24px;
-    top: 24.5px;
-
-    font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
-    /* or 120% */
-
-    display: flex;
-    align-items: center;
-
-    color: #FFFFFF;
+    @apply  absolute w-[233.95px] h-[38px] left-[24px] top-[24.5px] font-normal flex items-center font-medium text-white text-lg leading-9;
   }
 
   .suscribete-precio{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px 0px 2px;
-    isolation: isolate;
-
-    position: absolute;
-    width: 123.94px;
-    height: 40px;
-    left: 1032.06px;
-    top: calc(50% - 40px/2);
-
+    @apply absolute w-[123.94px] h-[40px] left-[1032.06px] top-[10px] flex flex-col items-start px-0 py-0.5;
+    
   }
 
   .precio-suscripcion{
-    width: 56px;
-    height: 14px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 14px;
-    /* identical to box height, or 100% */
-
-    display: flex;
-    align-items: center;
-    text-align: right;
-    text-decoration-line: line-through;
-
-    color: #FFFFFF;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    z-index: 0;
+    @apply w-[56px] h-[14px] font-medium text-white text-sm line-through flex items-center justify-end z-0;
+    font-family: Roboto,sans-serif;
   }
 
   .precio-mes{
-    width: 123.94px;
-    height: 24px;
+    @apply w-[123.94px] h-[24px];
 
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    z-index: 1;
   }
 
   .mes{
-    position: absolute;
-    width: 30px;
-    height: 14px;
-    left: 80.45px;
-    top: 20px;
-
+    @apply absolute w-[30px] h-[14px] left-[80.45px] top-[30px] font-normal font-bold text-white flex items-center text-right text-sm leading-4;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 14px;
-    /* identical to box height, or 108% */
-
-    display: flex;
-    align-items: center;
-    text-align: right;
-
-    color: #FFFFFF;
   }
 
   .cont-precio-mes{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 6px 4.45312px 5px 1px;
-
-    position: absolute;
-    width: 93.45px;
-    height: 35px;
-    right: 30.48px;
-    top: 8px;
+     @apply flex flex-row items-start px-1 py-6 pr-4 absolute w-[93.45px] h-[35px] right-[30.48px] top-[8px];
   }
 
   .text-precio-mes{
-    width: 88px;
-    height: 24px;
-
+    @apply w-[80px] h-[14px] font-medium text-white font-semibold text-2xl  flex items-center justify-end z-0;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    /* identical to box height, or 109% */
-
-    display: flex;
-    align-items: center;
-    text-align: right;
-
-    color: #FFFFFF;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
   }
 
   .pseudo-precios{
-    box-sizing: border-box;
+    @apply box-border absolute w-[2px] h-[37px] left-[-8px] top-[10px] border-l-2 border-white;
 
-    position: absolute;
-    width: 2px;
-    height: 37px;
-    left: -8px;
-    top: 0px;
-
-    border-left: 2px solid #FFFFFF;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-    z-index: 2;
   }
 
 
 
 .logo-tienda{
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    left: calc(50% - 80px/2);
-    top: 55px;
-
-    background: #FFFFFF;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    @apply absolute w-[80px] h-[80px] left-[100px] top-[55px] bg-white shadow-md rounded-lg;
+   
 }
 
 .beneficios-punto-pp{
-    position: absolute;
-    width: 1200px;
-    height: 399.19px;
-    left: calc(50% - 1200px/2);
-    top: 1360.19px;
+    @apply absolute w-[1200px] h-[399.19px] left-[80px] top-[1360.19px];
 }
 
 .difuminado-paramount{
-    position: absolute;
-    height: 124px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-
-    background: linear-gradient(0deg, #0064FF 0%, rgba(0, 100, 255, 0) 100%);
+    @apply absolute bottom-[0px] left-[0px] right-[0px] h-[124px] bg-gradient-to-t from-blue-600 to-transparent;
 }
 
 .difuminado-hbo{
-    position: absolute;
-    height: 124px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-
-    background: linear-gradient(0deg, #3C034E 0%, rgba(60, 3, 78, 0) 100%);
+    @apply absolute h-[124px] left-[0px] right-[0px] bottom-0 bg-gradient-to-t from-purple-900 to-transparent;
 }
 
 .difuminado-disney{
-    position: absolute;
-    height: 124px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-
-    background: linear-gradient(0deg, #081330 0%, rgba(8, 19, 48, 0) 100%);
+    @apply absolute h-[124px] left-[0px] right-[0px] bottom-[0px] bg-gradient-to-t from-blue-900 to-transparent;
 }
 
 .benedicios-texto{
-    position: absolute;
-    width: 535.73px;
-    height: 31.19px;
-    left: 0px;
-    top: 40px;
+    @apply absolute w-[535.73px] h-[31.19px] left-0 top-[40px];
 }
 
 .contenedor-streaming{
-    position: absolute;
-    width: 1200px;
-    height: 266px;
-    left: 0px;
-    top: 93.19px;
+    @apply absolute w-[1200px] h-[266px] left-0 top-[93.19px];
 }
 
 .texto-beneficios{
-    position: absolute;
-    width: 334px;
-    height: 32px;
-    left: 8px;
-    top: 0px;
-
+    @apply absolute w-[334px] h-[32px] left-[8px] top-[0px] flex items-center  font-normal text-2xl leading-9 text-gray-600;
     font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 31px;
-    /* identical to box height, or 125% */
-
-    display: flex;
-    align-items: center;
-
-    color: #666666;
 }
 
 .texto-verbeneficios{
-    position: absolute;
-    width: 161px;
-    height: 20px;
-    left: 367.36px;
-    top: 10px;
-
+    @apply absolute w-[161px] h-[20px] left-[367.36px] top-[10px] flex items-center font-normal text-sm leading-5 text-blue-500;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 19px;
-    /* identical to box height, or 128% */
-
-    display: flex;
-    align-items: center;
-
-    color: #3483FA;
-
 }
 
 .streaming-interior{
-    position: absolute;
-    width: 3600px;
-    height: 250px;
-    left: 0px;
-    top: 0px;
+    @apply absolute w-[360px] h-[250px] left-0 top-[0px];
 
 }
 
 .contenedor-disney{
-    position: absolute;
-    width: 384px;
-    height: 250px;
-    left: 8px;
-    top: 0px;
-
-    border-radius: 6px;
+    @apply absolute w-[384px] h-[250px] left-[8px] top-[0px] rounded-[6px];
 }
 
 .cont-comentarios-disney{
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 138px;
-    bottom: 0px;
+    @apply absolute left-[0px] right-[0px] top-[138px] bottom-[0px];
 }
 
 .cont-comentarios-hbo{
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 138px;
-    bottom: 0px;
+    @apply absolute left-[0px] right-[0px] top-[138px] bottom-[0px];
+
 }
 
 .cont-comentarios-paramout{
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 138px;
-    bottom: 0px;
+    @apply absolute left-[0px] right-[0] top-[138px] bottom-[0px];
 }
 
 .cont-text-disney{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px 0.03125px 0px 16px;
-    gap: 4.97px;
-
-    position: absolute;
-    width: 244.03px;
-    height: 48.97px;
-    left: 96px;
-    top: calc(50% - 48.97px/2 - 0.48px);
+    @apply absolute flex flex-col items-start gap-5 p-1 pl-4 w-[244.03px] h-[48.97px] left-[96px] top-[10px] ;  
 }
 
 .cont-text-paramout{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px 0.03125px 0px 16px;
-    gap: 4.97px;
+    @apply absolute flex flex-col items-start gap-5 p-1 pl-4 top-[25px] w-[244.03px] h-[48.97px] left-[96px];
 
-    position: absolute;
-    width: 244.03px;
-    height: 48.97px;
-    left: 96px;
-    top: calc(50% - 48.97px/2 - 0.48px);
 }
 
 
 
 .cont-text-hbo{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px 0.03125px 0px 16px;
-    gap: 4.97px;
-
-    position: absolute;
-    width: 244.03px;
-    height: 48.97px;
-    left: 100px;
-    top: calc(50% - 48.97px/2 - 0.48px);
+    @apply absolute flex flex-col items-start gap-5 p-1 pl-4 w-[244.03px] h-[48.97px] left-[100px] top-[30px] ;
+    
 }
 
 .texto-sincargo{
-    width: 228px;
-    height: 24px;
-
+    @apply w-[228px] h-[24px] font-normal font-medium text-2xl leading-6 flex items-center text-white;   
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    /* identical to box height, or 109% */
-
-    display: flex;
-    align-items: center;
-
-    color: #FFFFFF;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
 .texto-disneystar{
-    width: 123px;
-    height: 20px;
-
+    @apply w-[123px] h-[20px] flex items-center font-normal tracking-wider font-normal text-base leading-5 text-white; 
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
-    /* identical to box height, or 118% */
-
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.4px;
-
-    color: #FFFFFF;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 }
 
 .texto-paramout{
-    width: 123px;
-    height: 20px;
-
+    @apply w-[123px] h-[20px] flex items-center font-normal tracking-wider font-normal text-base leading-5 text-white; 
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
-    /* identical to box height, or 118% */
-
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.4px;
-
-    color: #FFFFFF;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+    
 }
 
 .texto-hbo{
-    width: 123px;
-    height: 20px;
-
+    @apply w-[123px] h-[20px] flex items-center font-normal tracking-wider font-normal text-base leading-5 text-white; 
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
-    /* identical to box height, or 118% */
-
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.4px;
-
-    color: #FFFFFF;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 }
 
 .textodiasmas{
-    position: absolute;
-    width: 75px;
-    height: 16px;
-    left: 16px;
-    top: -15px;
-
+    @apply absolute w-[75px] h-[16px] left-[16px] top-[-15px] flex font-normal items-center font-semibold text-xs leading-4 text-white;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 10px;
-    line-height: 16px;
-    /* identical to box height, or 145% */
-
-    display: flex;
-    align-items: center;
-
-    color: #ffffff;
 }
 
 .contenesor-hbo{
-    position: absolute;
-    width: 384px;
-    height: 250px;
-    left: 408px;
-    top: 0px;
-
-    border-radius: 6px;
+    @apply absolute w-[384px] h-[250px] left-[408px] top-[0px] rounded-md;
+ 
 }
 
 .contenedor-paramount{
-    position: absolute;
-    width: 384px;
-    height: 250px;
-    left: 808px;
-    top: 0px;
+    @apply absolute w-[384px] h-[250px] left-[808px] top-[0px] rounded-md
 
-    border-radius: 6px;
 }
 
 .text-colecciones{
-    width: 145px;
-    height: 26px;
-
+    @apply w-[145px] h-[26px] font-normal flex items-center font-light text-2xl leading-3 text-gray-600;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 26px;
-    line-height: 26px;
-    /* identical to box height, or 100% */
-
-    display: flex;
-    align-items: center;
-
-    color: #666666;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
-.boton-colecciones{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    padding: 2px 0px 0px;
-    gap: 7.8px;
-
-    width: 192.8px;
-    height: 28px;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+.text-super-pp{
+    @apply w-[145px] h-[26px]  font-normal flex items-center font-light text-2xl font-bold leading-3 text-gray-600;
+    font-family: Roboto,sans-serif;
 }
+
 
 .h-coleccione{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    padding: 1px 0px 2.1875px;
-    gap: 6.88px;
-
-    position: absolute;
-    width: 344.67px;
-    height: 31.19px;
-    left: 106px;
-    top: 2640px;
+    @apply absolute w-[344.67px] h-[31.19px] left-[90px] top-[2640px] flex flex flex-row items-end;
+    
 
 }
 
 .vertienda{
-    position: absolute;
-    width: 68.84px;
-    height: 22px;
-    left: 107.67px;
-    top: 298px;
-
+    @apply absolute w-[68.84px] h-[22px] left-[107.67px] top-[298px]  font-semibold text-base flex items-center justify-center text-center text-gray-400;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 18px;
-    display: flex;
-    align-items: center;
-    text-align: center;
 
-color: #999999;
 }
 
 .articulos-tienda{
-    position: absolute;
-    width: 284px;
-    height: 74px;
-    left: 0px;
-    top: 202px;
+    @apply absolute w-[284px] h-[74px] left-0 top-[202px]
+
 }
 
 
@@ -2657,510 +886,168 @@ color: #999999;
 
 
 .articulo-izq{
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    left: calc(50% - 70px/2 - 76px);
-    top: 3px;
-
-    border: 1px solid #EEEEEE;
-    border-radius: 8px;
+    @apply box-border absolute w-[70px] h-[70px] left-[30px] top-[3px] border border-gray-300 rounded-lg;
+ 
 }
 
 .articulo-centro{
-    box-sizing: border-box;
+    @apply box-border absolute w-[70px] h-[70px] left-[105px] top-[3px] border border-gray-300 rounded-lg;
 
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    left: calc(50% - 70px/2);
-    top: 3px;
-
-    border: 1px solid #EEEEEE;
-    border-radius: 8px;
 }
 
 .articulo-der{
-    box-sizing: border-box;
+    @apply box-border absolute w-[70px] h-[70px] left-[180px] top-[3px] border border-gray-300 rounded-lg;
 
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    left: calc(50% - 70px/2 + 76px);
-    top: 3px;
-
-    border: 1px solid #EEEEEE;
-    border-radius: 8px;
-}
-
-.caja-lego{
-    position: absolute;
-    width: 284px;
-    height: 74px;
-    left: 0px;
-    top: 202px;
-}
-
-.box-inter-catego{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-
-    position: absolute;
-    width: 1190px;
-    height: 340px;
-    left: 10px;
-    top: 93.19px;
-
-    background: rgba(255, 255, 255, 0.002);
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
 }
 
 .text-tienda{
-    position: absolute;
-    width: 284px;
-    height: 35px;
-    left: 0px;
-    top: 151px;
+    @apply absolute w-[284px] h-[35px] left-0 top-[151px];
+
 }
 
 .style-text-tienda{
-    position: absolute;
-    width: 53.29px;
-    height: 35px;
-    left: 115.45px;
-    top: 0px;
-
-    font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 28px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #333333;
+    @apply absolute w-[53.29px] h-[35px] left-[115.45px] top-[0px] flex items-center justify-center font-medium text-2xl leading-[28px] text-center text-gray-700;
+ 
 
 }
 
 .contenedor-tienda{
-    position: absolute;
-    width: 284px;
-    height: 340px;
-    left: 8px;
-    top: 0px;
+    @apply absolute w-[284px] h-[340px] left-[8px] top-[0px] bg-white shadow-md rounded-md;
 
-    background: #FFFFFF;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1), 0px -1px 2px rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
 }
 
 .contenedor-tiendami{
-    position: absolute;
-    width: 284px;
-    height: 340px;
-    left: 308px;
-    top: 0px;
+    @apply absolute w-[284px] h-[340px] left-[308px] top-[0px] bg-white shadow-md rounded-md;
 
-    background: #FFFFFF;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1), 0px -1px 2px rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
 }
 
 .contenedor-tiendaoster{
-    position: absolute;
-    width: 284px;
-    height: 340px;
-    left: 608px;
-    top: 0px;
+    @apply absolute w-[284px] h-[340px] left-[608px] top-[0px] bg-white shadow-md rounded-md;
 
-    background: #FFFFFF;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1), 0px -1px 2px rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
 }
 
 .contenedor-tiendanikon{
-    position: absolute;
-    width: 284px;
-    height: 340px;
-    left: 908px;
-    top: 0px;
+    @apply absolute w-[284px] h-[340px] left-[908px] top-[0px] bg-white shadow-md rounded-md;
 
-    background: #FFFFFF;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1), 0px -1px 2px rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
 }
 
 .descubre-pp{
-    position: absolute;
-    width: 1200px;
-    height: 398.19px;
-    left: calc(50% - 1200px/2);
-    top: 1759.5px;
+    @apply absolute w-[1200px] h-[398.19px] left-[80px] top-[1759.5px];
 }
 
 .descubretext{
-    position: absolute;
-    width: 109.59px;
-    height: 37px;
-    left: 8px;
-    top: 37px;
-
+    @apply absolute w-[109.59px] h-[37px] left-[8px] top-[37px] flex items-center font-normal font-thin text-2xl leading-8 text-gray-600;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 31px;
-    /* or 120% */
-
-    display: flex;
-    align-items: center;
-
-    color: #666666;
-
 }
 
 .descubreinter{
-    position: absolute;
-    height: 265px;
-    left: 0px;
-    right: 0px;
-    top: 93.19px;
-
+    @apply absolute h-[265px] right-[0px] left-0 top-[93.19px];
 }
 
 .renuevaespacios{
-    position: absolute;
-    height: 250px;
-    left: 8px;
-    right: 608px;
-    top: 0px;
-
-    background: #FFFFFF;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
+    @apply absolute h-[250px] right-[608px] left-[8px] top-[0px] bg-white shadow-sm rounded-md;
 }
 
 .suscribete{
-    position: absolute;
-    height: 250px;
-    left: 607px;
-    right: 9px;
-    top: 0px;
-
-    background: #FFFFFF;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
+    @apply absolute h-[250px] right-[9px] left-[607px] top-[0px] bg-white shadow-sm rounded-md;
 }
 
 .text-renueva{
-    position: absolute;
-    width: 213px;
-    height: 12px;
-    left: 32px;
-    top: 32px;
-
+    @apply absolute w-[213px] h-[12px] left-[32px] top-[32px] flex font-normal items-center font-medium text-xs leading-3 tracking-wider uppercase text-gray-600;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 10px;
-    line-height: 12px;
-    /* identical to box height, or 100% */
-
-    display: flex;
-    align-items: center;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-
-    color: #4B4B4B;
-
 }
 
 .estilo-imgpla{
-    position: absolute;
-    width: 289.84px;
-    left: 307.27px;
-    top: 0px;
-    bottom: 0px;
+    @apply absolute w-[289.84px] left-[307.27px] top-[0px] bottom-[0px];
 
-   
 }
 
 .estilo-imghogar{
-    position: absolute;
-    width: 289.84px;
-    left: 319.5px;
-    top: 0px;
-    bottom: 0px;
-
-    
+    @apply absolute w-[289.84px] left-[319.5px] top-[0px] bottom-[0px];
 }
 
 .text-hogarespacios{
-    position: absolute;
-    width: 251px;
-    height: 31px;
-    left: 32px;
-    top: 55px;
-
+    @apply absolute w-[251px] h-[31px] left-[32px] top-[55px] flex font-normal items-center font-medium text-lg leading-9 font-semibold  uppercase text-gray-600;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 31px;
-    /* identical to box height, or 110% */
-
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
-
-    color: #4B4B4B;
-
 }
 
 .hasta-50off{
-    position: absolute;
-    width: 208px;
-    height: 31px;
-    left: 32px;
-    top: 70.8px;
-
+    @apply absolute w-[208px] h-[31px] left-[32px] top-[70px] flex font-normal items-center font-medium text-lg leading-8 font-semibold uppercase text-gray-600;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 31px;
-    /* identical to box height, or 110% */
-
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
-
-    color: #4B4B4B;
-
 }
 
 .boton-vermas{
-    position: absolute;
-    width: 96px;
-    height: 36px;
-    left: 32px;
-    top: 100.59px;
-
-    background: #3483FA;
-    border-radius: 2px;
+    @apply absolute w-[96px] h-[36px] left-[32px] top-[100.59px] bg-blue-500 rounded-sm;
 }
 
 .suscri-nivel6{
-    position: absolute;
-    width: 214px;
-    height: 12px;
-    left: 32px;
-    top: 32px;
-
+    @apply absolute w-[214px] h-[12px] left-[32px] top-[32px] flex items-center font-normal uppercase font-semibold text-xs leading-3 tracking-widest text-gray-700;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 10px;
-    line-height: 12px;
-    /* identical to box height, or 100% */
-
-    display: flex;
-    align-items: center;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-
-    color: #4B4B4B;
-
 }
 
 .porsolo{
-    position: absolute;
-    width: 132px;
-    height: 31px;
-    left: 32px;
-    top: 55px;
-
+    @apply absolute w-[132px] h-[31px] left-[32px] top-[55px] flex items-center font-normal uppercase font-semibold text-lg leading-9 tracking-widest text-gray-700;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 31px;
-    /* identical to box height, or 110% */
-
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
-
-    color: #4B4B4B;
 }
 
 .precio-cadames{
-    position: absolute;
-    width: 241px;
-    height: 31px;
-    left: 32px;
-    top: 75.8px;
-
+    @apply absolute w-[241px] h-[31px] left-[32px] top-[75.8px] flex items-center font-normal uppercase font-semibold text-lg leading-9 tracking-widest text-gray-700;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 31px;
-    /* identical to box height, or 114% */
-
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
-
-    color: #4B4B4B;
-
 }
 
 .boton-suscribirme{
-    position: absolute;
-    width: 96px;
-    height: 36px;
-    left: 32px;
-    top: 110.59px;
-
-    background: #3483FA;
-    border-radius: 2px;
+    @apply absolute w-[96px] h-[36px] left-[32px] top-[110.59px] bg-blue-500 rounded-md;
 }
 
 .conte-plataformas{
-    position: absolute;
-    width: 275.11px;
-    height: 198.59px;
-    left: 0px;
-    top: 25.7px;
+    @apply absolute w-[275.11px] h-[198.59px] left-0 top-[25.7px];
 }
 
 .conte-renuevahogar{
-    position: absolute;
-    width: 287.34px;
-    height: 198.59px;
-    left: 0px;
-    top: 25.7px;
+    @apply absolute w-[287.34px] h-[198.59px] left-0 top-[25.7px];
 }
 
-.textsucribirme{
-    position: absolute;
-    width: 74.09px;
-    height: 20px;
-    left: 12px;
-    top: 7.5px;
 
-    font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 1px;
-    /* or 7% */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #FFFFFF;
-
-}
 
 .vertext{
-    position: absolute;
-    width: 50.83px;
-    height: 20px;
-    left: 22.69px;
-    top: 7.5px;
-
+    @apply absolute w-[50.83px] h-[20px] left-[22.69px] top-[7.5px] flex items-center font-normal font-medium text-sm leading-5 text-center text-white;
     font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 1px;
-    /* or 7% */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #FFFFFF;
-
 }
 
 .tamaño-home{
+    @apply absolute w-[284px] h-[95px] left-[0px] top-[0px];
 
-    position: absolute;
-    width: 284px;
-    height: 95px;
-    left: 0px;
-    top: 0px;
 }
 
 .caja-tiendas{
-    
-    position: absolute;
-    width: 1200px;
-    height: 505.19px;
-    left: calc(50% - 1200px/2);
-    top: 0px;
+    @apply absolute w-[1200px] h-[505.19px] left-[140px]  top-[0px]; 
 }
 
 .caja-tiendas2{
-    
-    position: absolute;
-    width: 1200px;
-    height: 356px;
-    left: 0px;
-    top: 93.19px;
+    @apply absolute w-[1200px] h-[356px] left-[0px] top-[93.19px];
 
 }
 
 
 
 .seccion-pp{
-    position: absolute;
-    width: 1512px;
-    height: 505.19px;
-    left: -60px;
-    top: 2117.5px;
+    @apply absolute w-[1352px] h-[505.19px]  top-[2117.5px] bg-gradient-to-b from-gray-200 to-transparent;
     
-    background: linear-gradient(0deg, #E6E6E6 0%, rgba(255, 255, 255, 0) 100%);
 }
 
 .catego-populares{
-    position: absolute;
-    width: 1200px;
-    height: 473.19px;
-    left: 100px;
-    top: 3131.69px;
+    @apply absolute w-[1170px] h-[473.19px] left-[95px] top-[3131.69px];
+
   
 }
 
 .categorias-pp{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
+    @apply flex flex-row items-start p-0 absolute w-[1160px] h-[340px] left-[0px] top-[60.19px] bg-opacity-0 bg-white shadow-sm rounded-md;
 
-    position: absolute;
-    width: 1190px;
-    height: 340px;
-    left: -170px;
-    top: 30.19px;
-
-    background: rgba(255, 255, 255, 0.002);
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
 }
 
 .formas-de-pago{
-    @apply absolute w-[1184px] h-[90px] left-1/2 transform -translate-x-1/2 top-[380px] bg-white shadow-sm rounded-md;
+    @apply absolute flex-col w-[1184px] h-[90px] left-1/2 transform -translate-x-1/2 top-[360px] bg-white shadow-sm rounded-md;
 }
 
 
@@ -3225,13 +1112,8 @@ color: #999999;
 }
 
 .contenedor-main{
-    position: absolute;
-    height: 3586px;
-    left: 0px;
-    right: 0px;
-    top: 100.5px;
-
-    background: #EBEBEB;
+    @apply absolute h-[3986px] left-0 right-0 top-[100.5px] bg-gray-300;
+    
 }
 
 .novedades-principales{
@@ -3239,37 +1121,22 @@ color: #999999;
 }
 
 .aimagennovedades{
-    position: absolute;
-    width: 1512px;
-    height: 340px;
-    left: -162px;
-    top: 100px;
-}
-
-.ico-full{
-    position: absolute;
-    left: 0%;
-    right: 0.35%;
-    top: 60.18%;
-    bottom: 21.18%;
-
+    @apply absolute w-[1352px] h-[340px]  top-[100px];
     
 }
 
+.ico-full{
+    @apply absolute left-0 right-[35px] top-[25px] bottom-[21.18px]; 
+}
+
 .ulnovedades{
-    position: absolute;
-    left: 726px;
-    right: 726px;
-    top: 400px;
-    bottom: 16px;
+    @apply absolute left-[726px] right-[726px] top-[400px] bottom-[16px];
+    
 }
 
 .conte-ulnovedades-principales{
-    position: absolute;
-    left: 650px;
-    right: 726px;
-    top: 408px;
-    bottom: 16px;
+    @apply absolute left-[650px] right-[726px] top-[408px] bottom-[16px];
+    
 }
 
 
@@ -3295,205 +1162,72 @@ color: #999999;
 }
 
 .footer-pp{
-    box-sizing: border-box;
-
-    position: absolute;
-    height: 156px;
-    left: 0px;
-    right: 0px;
-    top: 4036.5px;
-
-    background: #FFFFFF;
-    border-top: 1px solid #E6E6E6;
+    @apply box-border absolute h-[156px] left-[0px] right-[0px] top-[4036.5px] bg-white border-t border-gray-300;
+   
 }
 
 .footer1{
-    position: absolute;
-    width: 1180px;
-    height: 54px;
-    left: 90px;
-    top: 17px;
+    @apply absolute w-[1180px] h-[54px] left-[90px] top-[17px]; 
+    
 }
 
 .footer2{
-    box-sizing: border-box;
+    @apply box-border absolute w-[1180px] h-[69px] left-[80px] top-[87px] border-t border-gray-200;
 
-    position: absolute;
-    width: 1180px;
-    height: 69px;
-    left: calc(50% - 1180px/2);
-    top: 87px;
-
-    border-top: 1px solid #EDEDED;
 }
 
 .textfooter1{
-    position: absolute;
-    width: 299.28px;
-    height: 17px;
-    left: 0px;
-    top: 39px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 12px;
-    /* or 109% */
-
-    display: flex;
-    align-items: center;
-
-    color: #999999;
+    @apply absolute w-[286.98px] h-[17px] left-0 top-[35px] font-normal text-[11px] leading-[13px] flex items-center text-gray-600;
+    font-family: Roboto,sans-serif;
+    
 }
 
 .textulfooter1{
-    position: absolute;
-    width: 286.98px;
-    height: 17px;
-    left: 0px;
-    top: 25px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 13px;
-    display: flex;
-    align-items: center;
-
-    color: #999999;
-
+    @apply absolute w-[299.28px] h-[17px] left-[0px] top-[49px] flex items-center font-normal text-xs text-gray-500;
+    font-family: Roboto,sans-serif;
+   
 }
 
 .ulfooter1{
-    position: absolute;
-    width: 744px;
-    height: 13px;
-    left: 0px;
-    top: 0px;
+    @apply absolute w-[744px] h-[13px] left-[0px] top-[0px];
+    
 }
 
 .trabajaconnosotros{
-    position: absolute;
-    width: 113px;
-    height: 13px;
-    left: 0px;
-    top: 0px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 13px;
-    /* identical to box height, or 108% */
-
-    display: flex;
-    align-items: center;
-
-    color: #333333;
+    @apply absolute w-[113px] h-[13px] left-0 top-0 font-normal text-[12px] leading-[13px] flex items-center text-gray-700;
+    font-family: Roboto,sans-serif;
+    
 
 }
 
 .terminosycondi{
-    position: absolute;
-    width: 127px;
-    height: 13px;
-    left: 134.97px;
-    top: 0px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 13px;
-    /* identical to box height, or 108% */
-
-    display: flex;
-    align-items: center;
-
-    color: #333333;
+    @apply absolute w-[127px] h-[13px] left-[134.97px] top-0 font-normal text-[12px] leading-[13px] flex items-center text-gray-700;
+    font-family: Roboto,sans-serif;
+    
 }
 
 .conciudadanos{
-    position: absolute;
-    width: 160px;
-    height: 13px;
-    left: 284.41px;
-    top: 0px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 13px;
-    /* identical to box height, or 108% */
-
-    display: flex;
-    align-items: center;
-
-    color: #333333;
+    @apply absolute w-[160px] h-[13px] left-[284.41px] top-[0px] font-normal text-[12px] leading-[13px] flex items-center text-gray-700;
+    font-family: Roboto,sans-serif;
 
 }
 
 .accesibilidad{
-    position: absolute;
-    width: 72px;
-    height: 13px;
-    left: 469.52px;
-    top: 0px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 13px;
-    /* identical to box height, or 108% */
-
-    display: flex;
-    align-items: center;
-
-    color: #333333;
+    @apply absolute w-[72px] h-[13px] left-[469.52px] top-[0px] font-normal text-[12px] leading-[13px] flex items-center text-gray-700;
+    font-family: Roboto,sans-serif;
+    
 }
 
 .ayudaPQR{
-    position: absolute;
-    width: 68px;
-    height: 13px;
-    left: 561.28px;
-    top: 0px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 13px;
-    /* identical to box height, or 108% */
-
-    display: flex;
-    align-items: center;
-
-    color: #333333;
+    @apply absolute w-[68px] h-[13px] left-[561.28px] top-[0px] font-normal text-sm leading-[13px] flex items-center text-gray-700;
+    font-family: Roboto,sans-serif;
+    
 }
 
 .wwwsic{
-    position: absolute;
-    width: 84px;
-    height: 13px;
-    left: 649.48px;
-    top: 0px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 13px;
-    /* identical to box height, or 108% */
-
-    display: flex;
-    align-items: center;
-
-    color: #333333;
+    @apply absolute w-[84px] h-[13px] left-[649.48px] top-[0px] font-normal text-[12px] leading-[13px] flex items-center text-gray-700;
+    font-family: Roboto,sans-serif;
+    
 }
 
 html,body {
