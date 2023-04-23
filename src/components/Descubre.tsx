@@ -20,7 +20,7 @@ const Descubre = () => {
                         <span className="suscri-nivel6">SUSCRIBETE AL NIVEL 6</span>
                         <span className="porsolo">POR SOLO</span>
                         <span className="precio-cadames">$17.899 cada mes</span>
-                        <button className="boton-suscribirme"><span className="textsucribirme">Suscribirme</span></button>
+                        <button className="boton-suscribirme"><span className="vertext">Suscribirme</span></button>
                     </div>
                     <div className="estilo-imgpla"><img src="media\image\plataformas.png" /></div>
 

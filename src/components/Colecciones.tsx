@@ -1,12 +1,11 @@
-
 const Colecciones = () => {
     return (
         <div className="colecciones">
 
             <div >
-                <div >
+                <div className="flex md:flex-row flex-col items-center" >
                     <a >
-                        <div>
+                        <div className="flex flex-col gap-8">
                             <div className="pedigre">
                                 <img src="media\image\pedigre.png" />
                             </div>
@@ -22,18 +21,21 @@ const Colecciones = () => {
 
                         </div>
                     </a>
-                    <div className="colecciones-inter flex gap-4">
-                        <a ><img src="media\image\1.png" /></a>
-                        <a ><img src="media\image\2.png" /></a>
-                        <a ><img src="media\image\3.png" /></a>
-                        <a ><img src="media\image\4.png" /></a>
+                    <div className="flex flex-col ">
+                        <div className="colecciones-inter flex gap-4">
+                            <a ><img src="media\image\1.png" /></a>
+                            <a ><img src="media\image\2.png" /></a>
+                            <a ><img src="media\image\3.png" /></a>
+                            <a ><img src="media\image\4.png" /></a>
+                        </div>
+                        <div className="colecciones-inter flex gap-4">
+                            <a ><img src="media\image\5.png" /></a>
+                            <a ><img src="media\image\6.png" /></a>
+                            <a ><img src="media\image\7.png" /></a>
+                            <a ><img src="media\image\8.png" /></a>
+                        </div>
                     </div>
-                    <div className="colecciones-inter2 flex gap-4">
-                        <a ><img src="media\image\5.png" /></a>
-                        <a ><img src="media\image\6.png" /></a>
-                        <a ><img src="media\image\7.png" /></a>
-                        <a ><img src="media\image\8.png" /></a>
-                    </div>
+                    
 
                 </div>
             </div>
@@ -41,6 +43,5 @@ const Colecciones = () => {
     )
 
 }
-
 
 export { Colecciones};
