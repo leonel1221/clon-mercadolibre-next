@@ -1,4 +1,3 @@
-
 const Section = () => {
     return (
         <section className="section">
@@ -34,12 +33,13 @@ const Section = () => {
                             </defs>
                         </svg>
                     </div>
-
-                    <div className="pagacontarje">Paga con tarjeta o en efectivo</div>
-                    <div className="conmercado">Con Mercado Pago, paga en cuotas y aprovecha la comodidad de financiación que te da tu banco, o hazlo con efectivo en puntos de pago. ¡Y siempre es seguro!</div>
-                    <div className="comopagar">Cómo pagar con Mercado Pago</div>
+                    <div >
+                        <div className="pagacontarje">Paga con tarjeta o en efectivo</div>
+                        <div className="conmercado">Con Mercado Pago, paga en cuotas y aprovecha la comodidad de financiación que te da tu banco, o hazlo con efectivo en puntos de pago. ¡Y siempre es seguro!</div>
+                        <div className="comopagar">Cómo pagar con Mercado Pago</div>
+                    </div> 
                 </div>
-                <div className="section2">
+                <div className="section1">
                     <div className="shiping">
                         <svg width="56" height="49" viewBox="0 0 56 49" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_1_660)">
@@ -60,12 +60,14 @@ const Section = () => {
                             </defs>
                         </svg>
                     </div>
-
-                    <div className="enviogratis">Envío gratis desde $ 90.000</div>
-                    <div className="consolotext">Con solo estar registrado en Mercado Libre, tienes envíos gratis en miles de productos seleccionados.</div>
-                    <div className="concebenefi">Conoce más sobre este beneficio</div>
+                    <div>
+                        <div className="enviogratis">Envío gratis desde $ 90.000</div>
+                        <div className="consolotext">Con solo estar registrado en Mercado Libre, tienes envíos gratis en miles de productos seleccionados.</div>
+                        <div className="concebenefi">Conoce más sobre este beneficio</div>
+                    </div>
+                    
                 </div>
-                <div className="section3">
+                <div className="section1">
                     <div className="protecte">
                         <svg width="52" height="55" viewBox="0 0 52 55" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_1_684)">
@@ -79,16 +81,17 @@ const Section = () => {
                             </defs>
                         </svg>
                     </div>
-
-                    <div className="seguridadtext">Seguridad, de principio a fin</div>
-                    <div className="notegustatext">¿No te gusta? ¡Devuélvelo! En Mercado Libre, no hay nada que no puedas hacer, porque estás siempre protegido.</div>
-                    <div className="comotegustatext">Cómo te protegemos</div>
+                    <div className="flex-col mt-20">
+                        <div className="seguridadtext">Seguridad, de principio a fin</div>
+                        <div className="notegustatext">¿No te gusta? ¡Devuélvelo! En Mercado Libre, no hay nada que no puedas hacer, porque estás siempre protegido.</div>
+                        <div className="comotegustatext">Cómo te protegemos</div>
+                    </div>
+                    
                 </div>
             </div>
         </section>
     )
 
 }
-
 
 export { Section};

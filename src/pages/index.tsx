@@ -24,7 +24,7 @@ const indexPage = () => {
                     <div>
                         <Novedades />
                         <Formaspago />
-                        <Ofertas />
+                        <Ofertas/>
                         <Subenivel />
                         <Beneficios />
                         <Descubre />
@@ -32,7 +32,7 @@ const indexPage = () => {
                         <Hcolecciones />
                         <Colecciones />
                         <Categoriaspopulares />
-                        <Section />
+                        <Section/>
 
                     </div>
                 </div>
