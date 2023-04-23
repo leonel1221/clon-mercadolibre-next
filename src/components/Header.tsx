@@ -3,7 +3,7 @@ const Header = () => {
 return (
     <header className="cont-header-pp">
                 <div className="cont-header">
-                    <div className="flex gap-[30px] ml-[100px] ">
+                    <div className="flex gap-[30px] ml-80 ">
                         <div className="logo-mercadolibre">
                             <img src="media\image\logo-mercadolibre.svg" />
                         </div>
@@ -16,12 +16,11 @@ return (
                             </form>
                         </div>
                     </div>
-                    <div className="flex ml-[100px] mt-[20px] ">
+                    <div className="flex flex-row ml-[110px] mt-[26px] ">
                         <div className="cont-ingresa-domicilio margen1">
                             <span className="texr-ingresa-domicilio">Ingresa tu domicilio</span>
                         </div>
-
-                        <div className="margen1 organization ml-[50px] flex gap-[20px] ">
+                        <div className=" mt-12 ml-[150px] flex gap-8">
                             <div className="flex gap-[3px] ">
                                 <span>Categoría</span>
                                 <img src="media\image\pseudocategoriasheader.svg" />
@@ -34,9 +33,11 @@ return (
                             <div><span>Ayuda/PQR</span></div>
                         </div>
 
-                        <div className="crea-tucuenta margen2 ml-[180px] ">
+                        <div className="crea-tucuenta mt-8 ml-[140px] ">
                             <span>Crea tu cuenta Ingresa Mis Compras</span>
+                            
                         </div>
+                        <img className="shopincar-conte ml-[380px] mt-8 " src="media\image\cart-shopping.png" />
                     </div>
 
 

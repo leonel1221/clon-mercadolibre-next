@@ -3,9 +3,9 @@ const Colecciones = () => {
         <div className="colecciones">
 
             <div >
-                <div className="flex md:flex-row flex-col items-center" >
+                <div className="flex md:flex-row flex-col items-center gap-4 " >
                     <a >
-                        <div className="flex flex-col gap-8">
+                        <div className="flex flex-col">
                             <div className="pedigre">
                                 <img src="media\image\pedigre.png" />
                             </div>
