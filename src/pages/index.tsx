@@ -17,14 +17,14 @@ import { Section } from "../components/Section";
 
 const indexPage = () => {
     return (
-        <div className="contenedor-body">
+        <div className="contenedor-body ">
             <Header />
             <main className="contenedor-main">
                 <div>
-                    <div>
+                    <div className=" flex flex-col gap-6">
                         <Novedades />
                         <Formaspago />
-                        <Ofertas />
+                        <Ofertas/>
                         <Subenivel />
                         <Beneficios />
                         <Descubre />
@@ -32,7 +32,7 @@ const indexPage = () => {
                         <Hcolecciones />
                         <Colecciones />
                         <Categoriaspopulares />
-                        <Section />
+                        <Section/>
 
                     </div>
                 </div>

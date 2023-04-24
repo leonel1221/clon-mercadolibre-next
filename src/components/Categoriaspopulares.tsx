@@ -6,87 +6,76 @@ const Categoriaspopulares = () => {
             <div className="categorias-pp">
                 <div className="contenedor-categorias">
                     <div className="organization">
+
                         <div className="organization1">
-
                             <a className="img-organi1">
-                                <span className="style-text-carromoto">Carros, Motos y Otros</span>
-                                <img className="style-ico-carromoto" src="media\carrosmotosyotros.svg" />
-
+                                <img className="style-ico-pplares ml-12" src="media\carrosmotosyotros.svg" />
+                                <span className="style-text-pplares">Carros, Motos y Otros</span>
                             </a>
-
-                            <a className="img-organi2">
-                                <span className="style-text-celutele">Celulares y Teléfonos</span>
-                                <img className="style-ico-celutele" src="media\celulares.svg" />
-
+                            <a className="img-organi1">
+                                <img className="style-ico-pplares ml-12" src="media\celulares.svg" />
+                                <span className="style-text-pplares">Celulares y Teléfonos</span>
                             </a>
                         </div >
-                        <div className="organization2">
-                            <a className="img-compu">
-                                <span className="style-text-computacion">Computación</span>
-                                <img className="style-ico-compu" src="media\computacion.svg" />
+                        <div className="organization1">
+                            <a className="img-organi1">
+                                <img className="style-ico-pplares ml-12" src="media\computacion.svg" />
+                                <span className="style-text-pplares">Computación</span>
                             </a>
-                            <a className="img-belleza">
-                                <span className="style-text-belleza">Belleza y Cuidado Personal</span>
-                                <img className="style-ico-belleza" src="media\belleza.svg" />
-
-                            </a>
-                        </div>
-                        <div className="organization3">
-                            <a className="img-ropa">
-                                <span className="style-text-ropa">Ropa y Accesorios</span>
-                                <img className="style-ico-ropa" src="media\ropa.svg" />
-                            </a>
-                            <a className="img-deporte">
-                                <span className="style-text-deporte">Deportes y Fitness</span>
-                                <img className="style-ico-deporte" src="media\deportes.svg" />
-
+                            <a className="img-organi1">
+                                <img className="style-ico-pplares ml-12" src="media\belleza.svg" />
+                                <span className="style-text-pplares">Belleza y Cuidado Personal</span>
                             </a>
                         </div>
-                        <div className="organization4">
-                            <a className="img-sofa">
-                                <span className="style-text-hogar">Hogar y Muebles</span>
-                                <img className="style-ico-hogar" src="media\Hogar.svg" />
-
+                        <div className="organization1">
+                            <a className="img-organi1">
+                                <img className="style-ico-pplares ml-12" src="media\ropa.svg" />
+                                <span className="style-text-pplares">Ropa y Accesorios</span>
                             </a>
-                            <a className="img-electonica">
-                                <span className="style-text-electronica">Electrónica, Audio y Video</span>
-                                <img className="style-ico-electronica" src="media\electronica.svg" />
-
+                            <a className="img-organi1">
+                                <img className="style-ico-pplares ml-12" src="media\deportes.svg" />
+                                <span className="style-text-pplares">Deportes y Fitness</span>
                             </a>
                         </div>
-                        <div className="organization5">
-                            <a className="img-accesorios">
-                                <span className="style-text-accesorio">Accesorios para Vehículos</span>
-                                <img className="style-ico-accesorio" src="media\accesorios.svg" />
-
+                        <div className="organization1">
+                            <a className="img-organi1">
+                                <img className="style-ico-pplares ml-12" src="media\Hogar.svg" />
+                                <span className="style-text-pplares">Hogar y Muebles</span>
                             </a>
-                            <a className="img-consola">
-                                <span className="style-text-consola">Consolas y Videojuegos</span>
-                                <img className="style-ico-consola" src="media\consolas.svg" />
-
+                            <a className="img-organi1">
+                                <img className="style-ico-pplares ml-12" src="media\electronica.svg" />
+                                <span className="style-text-pplares">Electrónica, Audio y Video</span>
                             </a>
                         </div>
-                        <div className="organization6">
-                            <a className="img-electrodomesticos">
-                                <span className="style-text-electrodomesticos">Electrodomésticos</span>
-                                <img className="style-ico-electrodomesticos" src="media\electrodomesticos.svg" />
-
+                        <div className="organization1">
+                            <a className="img-organi1">
+                                <img className="style-ico-pplares ml-12" src="media\accesorios.svg" />
+                                <span className="style-text-pplares">Accesorios para Vehículos</span>
                             </a>
-                            <a className="img-juegos">
-                                <span className="style-text-juegos">Juegos y Juguetes</span>
-                                <img className="style-ico-juegos" src="media\juegos.svg" />
+                            <a className="img-organi1">
 
+                                <img className="style-ico-pplares ml-12" src="media\consolas.svg" />
+                                <span className="style-text-pplares">Consolas y Videojuegos</span>
                             </a>
                         </div>
-                        <div className="organization7">
-                            <a className="img-camaras">
-                                <span className="style-text-camaras">Cámaras y Accesorios</span>
-                                <img className="style-ico-camaras" src="media\camaras.svg" />
-
+                        <div className="organization1">
+                            <a className="img-organi1">
+                                <img className="style-ico-pplares ml-12" src="media\electrodomesticos.svg" />
+                                <span className="style-text-pplares">Electrodomésticos</span>
                             </a>
-                            <a className="img-herramientas">
-                                <span className="style-text-herramientas">Herramientas</span>
-                                <img className="style-ico-herramientas" src="media\herramientas.svg" />
+                            <a className="img-organi1">
+                                <img className="style-ico-pplares ml-12" src="media\juegos.svg" />
+                                <span className="style-text-pplares">Juegos y Juguetes</span>
+                            </a>
+                        </div>
+                        <div className="organization1">
+                            <a className="img-organi1">
+                                <img className="style-ico-pplares ml-12" src="media\camaras.svg" />
+                                <span className="style-text-pplares">Cámaras y Accesorios</span>
+                            </a>
+                            <a className="img-organi1">
+                                <img className="style-ico-pplares ml-12" src="media\herramientas.svg" />
+                                <span className="style-text-pplares">Herramientas</span>
                             </a>
                         </div>
                     </div>
@@ -97,6 +86,5 @@ const Categoriaspopulares = () => {
 
 
 }
-
 
 export { Categoriaspopulares};

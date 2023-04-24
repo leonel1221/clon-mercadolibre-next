@@ -1,4 +1,3 @@
-
 const Hcolecciones = () => {
     return (
         <h2 className="h-coleccione">
@@ -19,6 +18,5 @@ const Hcolecciones = () => {
     )
 
 }
-
 
 export { Hcolecciones};
